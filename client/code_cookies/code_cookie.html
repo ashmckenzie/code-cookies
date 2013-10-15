@@ -1,33 +1,47 @@
 <template name="codeCookie">
 
-  <div class="form-horizontal">
+  <div class="code-cookie row">
 
-    <div class="control-group">
-      <label class="control-label">Name</label>
-      <div class="controls">
-        <span class="input-xlarge uneditable-input name">{{name}}</span>
-      </div>
+    <div class="span5 offset2">
+
+     <div class="control-group">
+       <div class="controls">
+         <div id="editor">{{content}}</div>
+       </div>
+     </div>
+
     </div>
 
-    <div class="control-group">
-      <label class="control-label">Email</label>
-      <div class="controls">
-        <span class="input-xlarge uneditable-input email">{{userEmail}}</span>
-      </div>
-    </div>
+    <div class="span4">
 
-    <div class="control-group">
-      <label class="control-label">Created</label>
-      <div class="controls">
-        <span class="input-xlarge uneditable-input created-at">{{createdAtNice}}</span>
+      <div class="control-group">
+        <label class="control-label">Name</label>
+        <div class="controls">
+          <span class="input-large uneditable-input name">{{name}}</span>
+        </div>
       </div>
-    </div>
 
-    <div class="control-group">
-      <label class="control-label">Content</label>
-      <div class="controls">
-        <div id="editor">{{content}}</div>
+      <div class="control-group">
+        <label class="control-label">Description</label>
+        <div class="controls">
+          <textarea class="input-large uneditable-textarea description" rows="4">{{description}}</textarea>
+        </div>
       </div>
+
+      <div class="control-group">
+        <label class="control-label">Email</label>
+        <div class="controls">
+          <span class="input-large uneditable-input email">{{userEmail}}</span>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label">Created</label>
+        <div class="controls">
+          <span class="input-large uneditable-input created-at">{{createdAtNice}}</span>
+        </div>
+      </div>
+
     </div>
 
   </div>

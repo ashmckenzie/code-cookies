@@ -7,7 +7,7 @@ Meteor.methods
     if (!user)
       Errors.throw('You need to login to create code cookies')
 
-    codeCookie = _.extend(_.pick(attrs, 'name', 'content'),
+    codeCookie = _.extend(_.pick(attrs, 'name', 'description', 'content'),
       userId: user._id,
       userEmail: user.emails[0].address,
       createdAt: new Date().getTime()

@@ -3,4 +3,4 @@ Template.codeCookiesList.helpers
     CodeCookies.find({}, { sort: { createdAt: -1 }})
 
   createdAtNice: ->
-    moment(@.createdAt).format("dddd, MMMM Do YYYY, h:mm:ss A")
+    moment(@.createdAt).format("DD/MM/YYYY hh:mm:ss A")

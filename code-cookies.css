@@ -1,18 +1,19 @@
 body {
   background-color: #eee;
-  padding-top: 60px;
 }
 
-.container .content {
-  padding-top: 40px;
+.navbar-fixed-top {
+  margin-bottom: 20px;
+  position: static;
 }
 
 .home h1 {
   font-size: 6em;
+  line-height: 0.9em;
 }
 
 .home img {
-  height: 80px;
+  height: 100px;
 }
 
 .home ul {
@@ -30,7 +31,15 @@ body {
 }
 
 #editor {
-  width: 600px;
+  max-width: 640px;
   height: 400px;
   text-align: left;
+}
+
+.debug {
+  border: 1px dotted red;
+}
+
+.code-cookie .uneditable-input, .code-cookie .uneditable-textarea {
+  cursor: default;
 }

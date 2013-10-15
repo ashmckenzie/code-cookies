@@ -6,4 +6,4 @@ Template.codeCookie.rendered = ->
 
 Template.codeCookie.helpers
   createdAtNice: ->
-    moment(@.createdAt).format("dddd, MMMM Do YYYY, h:mm:ss A")
+    moment(@.createdAt).format("D/M/YYYY h:mm:ss A")

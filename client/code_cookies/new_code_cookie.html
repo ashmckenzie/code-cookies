@@ -2,8 +2,18 @@
 
   <div class="new-code-cookie">
     <div class="row">
-      <div class="span12">
-        <form name="new-code-cookie" class="form-horizontal">
+
+      <form>
+
+        <div class="span6 offset1">
+          <div class="control-group">
+            <div class="controls">
+              <div id="editor"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="span4">
           <div class="control-group">
             <label class="control-label" for="name">Name</label>
             <div class="controls">
@@ -12,9 +22,9 @@
           </div>
 
           <div class="control-group">
-            <label class="control-label" for="editor">Content</label>
+            <label class="control-label" for="description">Description</label>
             <div class="controls">
-              <div id="editor"></div>
+              <textarea id="description" name="description" class="span4" rows="4" placeholder="Code Cookie description"></textarea>
             </div>
           </div>
 
