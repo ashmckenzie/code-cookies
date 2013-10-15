@@ -14,3 +14,4 @@ bootstrap
 router
 moment
 errors
+spin

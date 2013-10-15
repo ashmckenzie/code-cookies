@@ -5,6 +5,7 @@
     "router": {},
     "ace": {},
     "moment": {},
-    "errors": {}
+    "errors": {},
+    "spin": {}
   }
 }
