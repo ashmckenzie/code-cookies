@@ -3,7 +3,7 @@ body {
   padding-top: 60px;
 }
 
-.container > div:first-child {
+.container .content {
   padding-top: 40px;
 }
 

@@ -13,3 +13,4 @@ coffeescript
 bootstrap
 router
 moment
+errors

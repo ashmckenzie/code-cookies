@@ -12,9 +12,7 @@ Template.newCodeCookie.events "submit form": (e) ->
   codeCookie =
     name: $(e.target).find("[name=name]").val()
     content: editor.getValue()
-    userId: Meteor.user()._id
-    userEmail: Meteor.user().emails[0].address
-    createdAt: new Date().getTime()
 
-  codeCookie._id = CodeCookies.insert(codeCookie)
-  Meteor.Router.to "home"
+  Meteor.call 'newCodeCookie', codeCookie, (error, id) ->
+    if (!error)
+      Meteor.Router.to "home"
