@@ -1,8 +1,9 @@
 <template name="codeCookie">
+
+  {{> codeCookieBrief}}
+
   <p>
-    <a href="{{codeCookiePagePath this}}">
-      <span>{{name}}</span>
-    </a>
-    by <span>{{userEmail}}</span>
+    <div id="editor">{{content}}</div>
   </p>
+
 </template>
