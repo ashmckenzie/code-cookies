@@ -1,0 +1,22 @@
+body {
+  padding-top: 60px;
+}
+
+.container > div:first-child {
+  padding-top: 40px;
+}
+
+.home h1 {
+  font-size: 6em;
+}
+
+.home img {
+  height: 80px;
+}
+
+.new-code-cookie #editor {
+  width: 600px;
+  height: 400px;
+  /*margin: 0 auto;*/
+  text-align: left;
+}

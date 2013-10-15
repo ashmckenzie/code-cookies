@@ -1,0 +1,13 @@
+<template name="codeCookiesList">
+  <div class="row text-center">
+    <div class="span12">
+      <ul>
+        {{#each cookies}}
+          <li>
+            {{> codeCookie}}
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</template>

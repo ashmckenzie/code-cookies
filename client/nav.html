@@ -1,0 +1,23 @@
+<template name="nav">
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="/">Code Cookies</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li>
+              <a href="{{newCodeCookiePath}}">
+                <i class="icon-plus icon-white"></i>
+                New Code Cookie
+              </a>
+            </li>
+          </ul>
+          <ul class="nav pull-right">
+            <li>{{loginButtons}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
