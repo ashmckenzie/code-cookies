@@ -1,10 +1,19 @@
 <template name="codeCookieBrief">
 
-  <p>
-    <a href="{{codeCookiePagePath this}}">
-      <span>{{name}}</span>
-    </a>
-    by <span>{{userEmail}}</span>
-  </p>
+  <div class="row">
+
+    <div class="span4">
+      <a href="{{codeCookiePagePath this}}">
+        <span class="name">{{name}}</span>
+      </a>
+      <span class="muted">~</span>
+      <span class="email">{{userEmail}}</span>
+    </div>
+
+    <div class="span3 pull-right"
+      <span class="created-at">{{createdAtNice}}</span>
+    </div>
+
+  </div>
 
 </template>

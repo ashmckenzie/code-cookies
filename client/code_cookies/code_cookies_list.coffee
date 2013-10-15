@@ -1,3 +1,3 @@
 Template.codeCookiesList.helpers
   cookies: ->
-    CodeCookies.find()
+    CodeCookies.find({}, { sort: { createdAt: -1 }})

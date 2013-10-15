@@ -1,9 +1,35 @@
 <template name="codeCookie">
 
-  {{> codeCookieBrief}}
+  <div class="form-horizontal">
 
-  <p>
-    <div id="editor">{{content}}</div>
-  </p>
+    <div class="control-group">
+      <label class="control-label">Name</label>
+      <div class="controls">
+        <span class="input-xlarge uneditable-input name">{{name}}</span>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label">Email</label>
+      <div class="controls">
+        <span class="input-xlarge uneditable-input email">{{userEmail}}</span>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label">Created</label>
+      <div class="controls">
+        <span class="input-xlarge uneditable-input created-at">{{createdAtNice}}</span>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label">Content</label>
+      <div class="controls">
+        <div id="editor">{{content}}</div>
+      </div>
+    </div>
+
+  </div>
 
 </template>
