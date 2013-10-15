@@ -19,7 +19,7 @@ body {
 .home ul {
   list-style: none;
   text-align: left;
-  margin-top: 40px;
+  margin: 40px 0 0 0;
 }
 
 .home ul li {
@@ -42,4 +42,8 @@ body {
 
 .code-cookie .uneditable-input, .code-cookie .uneditable-textarea {
   cursor: default;
+}
+
+.notification .no-notifications {
+  padding: 10px;
 }
