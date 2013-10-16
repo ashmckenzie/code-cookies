@@ -3,7 +3,7 @@
 Notifications.allow
   update: ownsDocument
 
-createCommentNotification = (comment) ->
+@createCommentNotification = (comment) ->
   codeCookie = CodeCookies.findOne(comment.codeCookieId)
 
   if comment.userId isnt codeCookie.userId
@@ -11,5 +11,5 @@ createCommentNotification = (comment) ->
       userId: codeCookie.userId
       codeCookieId: codeCookie._id
       commentId: comment._id
-      commenterName: comment.author
+      commenterEmail: comment.email
       read: false

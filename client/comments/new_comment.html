@@ -1,0 +1,20 @@
+<template name="newComment">
+  <form>
+    <div class="span4">
+      <div class="control-group">
+        {{#if currentUser}}
+          <img src="{{gravatarImageUrl}}" alt="Gravatar" class="gravatar" />
+        {{/if}}
+        <div class="controls">
+          <textarea id="content" name="content" class="span4" rows="4" placeholder="Comment"></textarea>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <div class="controls">
+          <button type="submit" class="btn btn-success">Add comment</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</template>

@@ -1,14 +1,19 @@
 <template name="codeCookie">
 
+  <div class="row">
+    <div class="span5 offset2">
+      <h2>Code Cookie</h2>
+    </div>
+  </div>
+
   <div class="code-cookie row">
 
     <div class="span5 offset2">
-
-     <div class="control-group">
-       <div class="controls">
-         <div id="editor">{{content}}</div>
+      <div class="control-group">
+        <div class="controls">
+          <div id="editor">{{content}}</div>
+        </div>
        </div>
-     </div>
 
     </div>
 
@@ -38,12 +43,11 @@
       <div class="control-group">
         <label class="control-label">Created</label>
         <div class="controls">
-          <span class="input-large uneditable-input created-at">{{createdAtNice}}</span>
+          <span class="input-large uneditable-input created-at">{{dateNice createdAt}}</span>
         </div>
       </div>
 
     </div>
-
   </div>
 
 </template>

@@ -1,5 +1,42 @@
 <template name="codeCookiePage">
-  {{#with currentCookie}}
+  {{#with currentCodeCookie}}
     {{> codeCookie}}
+
+    <!-- <div class="row">
+      <div class="span5 offset2">
+        <h2>Responses</h2>
+      </div>
+    </div>
+
+    <div class="new-response row">
+    </div> -->
+
+    <div class="row">
+      <div class="span5 offset2">
+        <h2>Comments</h2>
+      </div>
+    </div>
+
+    <div class="new-comment row">
+      <div class="span5 offset2">
+        <ul>
+          {{#each commentList}}
+            <li>{{> comment}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span5 offset2">
+        <h2>New comment</h2>
+      </div>
+    </div>
+
+    <div class="new-comment row">
+      <div class="span5 offset2">
+        {{> newComment}}
+      </div>
+    </div>
   {{/with}}
 </template>

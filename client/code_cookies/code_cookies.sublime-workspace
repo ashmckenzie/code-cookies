@@ -1,0 +1,2681 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"has_",
+				"has_reservation_booked"
+			],
+			[
+				"prop",
+				"property_group"
+			],
+			[
+				"pro",
+				"property_group"
+			],
+			[
+				"el",
+				"elasticsearch_yml_variables"
+			],
+			[
+				"am",
+				"amend_page"
+			],
+			[
+				"parse",
+				"parse_and_mash"
+			],
+			[
+				"arti",
+				"article_comments"
+			],
+			[
+				"gig",
+				"gigya_environment"
+			],
+			[
+				"fe",
+				"feature"
+			],
+			[
+				"reds",
+				"redis_connection"
+			],
+			[
+				"feature",
+				"feature_class"
+			],
+			[
+				"ini",
+				"initial_state"
+			],
+			[
+				"sync",
+				"sync_database_yaml"
+			],
+			[
+				"flig",
+				"flight_booker"
+			],
+			[
+				"def",
+				"default_expiry_time"
+			],
+			[
+				"exp",
+				"expected"
+			],
+			[
+				"ch",
+				"check_for_resque"
+			],
+			[
+				"resq",
+				"resque_running"
+			],
+			[
+				"res",
+				"reservations"
+			],
+			[
+				"non",
+				"non_partner_with_points"
+			],
+			[
+				"fre",
+				"frequent_flyer_number"
+			],
+			[
+				"Brand",
+				"BrandableTest"
+			],
+			[
+				"devel",
+				"development_mode"
+			],
+			[
+				"forma",
+				"formatted_time"
+			],
+			[
+				"inven",
+				"inventory"
+			],
+			[
+				"inventory",
+				"inventory_provider_code"
+			],
+			[
+				"Inventory",
+				"InventoryProvider"
+			],
+			[
+				"property",
+				"property_ids"
+			],
+			[
+				"proper",
+				"property_id"
+			],
+			[
+				"desc",
+				"described_class"
+			],
+			[
+				"Acco",
+				"AccorCSV"
+			],
+			[
+				"se",
+				"search_criteria"
+			],
+			[
+				"ex",
+				"extract_assests_from_values"
+			],
+			[
+				"ean",
+				"ean_hotel_id"
+			],
+			[
+				"inva",
+				"invalid_card_number"
+			],
+			[
+				"car",
+				"card_type_from_number"
+			],
+			[
+				"cach",
+				"cache_key"
+			],
+			[
+				"Q",
+				"QantasPresenter"
+			],
+			[
+				"search",
+				"search_params"
+			],
+			[
+				"merch",
+				"merchant_card"
+			],
+			[
+				"cards_",
+				"cards_with_fees"
+			],
+			[
+				"revers",
+				"reversed_charges"
+			],
+			[
+				"ad",
+				"adult_count"
+			],
+			[
+				"qff",
+				"qff_strategy"
+			],
+			[
+				"po",
+				"points_per_dollar"
+			],
+			[
+				"cal",
+				"calculate_total"
+			],
+			[
+				"is_",
+				"is_qff_partner"
+			],
+			[
+				"caln",
+				"calculated_bonus"
+			],
+			[
+				"topd",
+				"top_deal_campaign"
+			],
+			[
+				"top",
+				"top_deal_campaign"
+			],
+			[
+				"to",
+				"top_deal_campaign"
+			],
+			[
+				"on",
+				"one_hundred_dollars"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"capr",
+				"capybara"
+			],
+			[
+				"sel",
+				"selector"
+			],
+			[
+				"Propert",
+				"PropertyCardElement"
+			],
+			[
+				"capy",
+				"capybara_element"
+			],
+			[
+				"cap",
+				"capybara_element"
+			],
+			[
+				"Property",
+				"PropertyCardsElement"
+			],
+			[
+				"curr",
+				"currentIndex"
+			],
+			[
+				"avail",
+				"availability"
+			],
+			[
+				"roo",
+				"room_type_element"
+			],
+			[
+				"per",
+				"persistState"
+			],
+			[
+				"new",
+				"new_zealand_location"
+			],
+			[
+				"total_occ",
+				"total_number_of_occupants"
+			],
+			[
+				"req",
+				"request_info"
+			],
+			[
+				"hotel_",
+				"hotel_id_list"
+			],
+			[
+				"availb",
+				"available_offer"
+			],
+			[
+				"should",
+				"should_receive"
+			],
+			[
+				"mel",
+				"melbourne_aus"
+			],
+			[
+				"melbourne_",
+				"melbourne_aus"
+			],
+			[
+				"melbou",
+				"melbourne_aus"
+			],
+			[
+				"me",
+				"melbourne_usa"
+			],
+			[
+				"Inven",
+				"InventoryProvider"
+			],
+			[
+				"In",
+				"InventoryProvider"
+			],
+			[
+				"inve",
+				"inventory_provider"
+			],
+			[
+				"inv",
+				"inventory_provider"
+			],
+			[
+				"des",
+				"destination_search"
+			],
+			[
+				"act",
+				"activity_feed"
+			],
+			[
+				"Act",
+				"activity"
+			],
+			[
+				"rel",
+				"related_descriptor"
+			],
+			[
+				"P",
+				"Property"
+			],
+			[
+				"fee",
+				"feed_obj"
+			],
+			[
+				"ra",
+				"rails_env"
+			],
+			[
+				"Ac",
+				"ActivityMonitor"
+			],
+			[
+				"inc",
+				"include_production_envs"
+			],
+			[
+				"app",
+				"apply_command"
+			],
+			[
+				"End",
+				"EngineYard"
+			],
+			[
+				"environments",
+				"environments"
+			],
+			[
+				"en",
+				"engineyard"
+			],
+			[
+				"prm",
+				"promotion_b"
+			],
+			[
+				"pr",
+				"promotion"
+			],
+			[
+				"Offer",
+				"OfferByDate"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/ash/Personal/code-cookies/client/home.html",
+			"settings":
+			{
+				"buffer_size": 391,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/client/notifications/notifications.html",
+			"settings":
+			{
+				"buffer_size": 688,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/client/notifications/notifications.coffee",
+			"settings":
+			{
+				"buffer_size": 333,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/client/main.html",
+			"settings":
+			{
+				"buffer_size": 360,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/collections/notifications.coffee",
+			"settings":
+			{
+				"buffer_size": 419,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/client/comments/comment_list.html",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/client/comments/comment.html",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/server/publications.coffee",
+			"settings":
+			{
+				"buffer_size": 202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/collections/comments.coffee",
+			"settings":
+			{
+				"buffer_size": 645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/client/comments/new_comment.coffee",
+			"settings":
+			{
+				"buffer_size": 302,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/client/comments/new_comment.html",
+			"settings":
+			{
+				"buffer_size": 585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code_cookie.html",
+			"settings":
+			{
+				"buffer_size": 1907,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code_cookies_list.html",
+			"settings":
+			{
+				"buffer_size": 715,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/client/main.coffee",
+			"settings":
+			{
+				"buffer_size": 168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code_cookie.coffee",
+			"settings":
+			{
+				"buffer_size": 279,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ash/Personal/code-cookies/code-cookies.css",
+			"settings":
+			{
+				"buffer_size": 758,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code_cookie_page.coffee",
+			"settings":
+			{
+				"buffer_size": 202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 8145 files for \"currentCookie\" (regex, case sensitive)\n\n/Users/ash/Personal/code-cookies/.meteor/local/build/programs/client/app/client/code_cookies/code_cookie_page.coffee.js:\n    1  (function(){__coffeescriptShare = typeof __coffeescriptShare === 'object' ? __coffeescriptShare : {}; var share = __coffeescriptShare;\n    2  Template.codeCookiePage.helpers({\n    3:   currentCookie: function() {\n    4      var codeCookie;\n    5      codeCookie = CodeCookies.findOne(Session.get('currentCodeCookieId'));\n\n/Users/ash/Personal/code-cookies/.meteor/local/build/programs/client/app/client/code_cookies/code_cookie_page.coffee.js.map:\n    1  )]}'\n    2: {\"version\":3,\"file\":\"/client/code_cookies/code_cookie_page.coffee.js\",\"sources\":[\"code_cookie_page.coffee\"],\"names\":[],\"mappings\":\";AAAA,CAAS,MAAT,CAAQ,MAAe;CACrB,EAAe,UAAf;CACE;GAAa,CAAb,GAAa,GAAb,CAAwB,UAAS;AAE7B,CAAJ;CACS,CAAP,IAAM,OAAN;MADF;aAGE;KANW;CAAf,EAAe;CADjB;A\",\"sourcesContent\":[\"Template.codeCookiePage.helpers\\n  currentCookie: ->\\n    codeCookie = CodeCookies.findOne(Session.get('currentCodeCookieId'))\\n\\n    if !codeCookie\\n      Meteor.Router.to('home')\\n    else\\n      codeCookie\\n\"]}\n\n/Users/ash/Personal/code-cookies/.meteor/local/build/programs/client/app/client/code_cookies/template.code_cookie_page.js:\n    1: (function(){Template.__define__(\"codeCookiePage\",Package.handlebars.Handlebars.json_ast_to_func([[\"#\",[[0,\"with\"],[0,\"currentCookie\"]],[\"\\n    \",[\">\",\"codeCookie\"],\"\\n  \"]]]));\n    2  \n    3  })();\n\n/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_page.coffee:\n    1  Template.codeCookiePage.helpers\n    2:   currentCookie: ->\n    3      codeCookie = CodeCookies.findOne(Session.get('currentCodeCookieId'))\n    4  \n\n/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_page.html:\n    1  <template name=\"codeCookiePage\">\n    2:   {{#with currentCookie}}\n    3      {{> codeCookie}}\n    4    {{/with}}\n\nUnable to open /Users/ash/Personal/code-cookies/packages/spin/.meteor/meteorite/packages/spin\n5 matches across 5 files\n",
+			"settings":
+			{
+				"buffer_size": 2046,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 170.0,
+		"selected_items":
+		[
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"close all",
+				"File: Close All"
+			],
+			[
+				"new fi",
+				"File: New File Relative to Current View"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"renae",
+				"File: Rename"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"js2",
+				"JS2Coffee: Convert & Overwrite Current File"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"git log c",
+				"Git: Log Current File"
+			],
+			[
+				"git ble",
+				"Git: Blame"
+			],
+			[
+				"gitbla",
+				"Git: Blame"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inde",
+				"Indent XML"
+			],
+			[
+				"XML",
+				"Indent XML"
+			],
+			[
+				"in",
+				"Indent XML"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"indxm",
+				"Indent XML"
+			],
+			[
+				"ind",
+				"Indent JSON"
+			],
+			[
+				"git lo",
+				"Git: Log Current File"
+			],
+			[
+				"git diff",
+				"Git: Diff Tool Current File"
+			],
+			[
+				"lose all",
+				"File: Close All"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"cloe all",
+				"File: Close All"
+			],
+			[
+				"git log cu",
+				"Git: Log Current File"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"git blme",
+				"Git: Blame"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"git lam",
+				"Git: Blame"
+			],
+			[
+				"syntax ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"reveal",
+				"Side Bar: Reveal File"
+			],
+			[
+				"upgrad",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"gitl",
+				"Git: Blame"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"be",
+				"BeautifyRuby"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word e",
+				"Word Wrap: Toggle"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"git bame",
+				"Git: Blame"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"tidyt",
+				"Tidy HTML"
+			],
+			[
+				"upgrae",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"it log",
+				"Git: Log All"
+			],
+			[
+				"close a",
+				"File: Close All"
+			],
+			[
+				"git b",
+				"Git: Blame"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Settings – User"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"delet",
+				"Git: Delete Branch"
+			],
+			[
+				"open",
+				"Git: Open Modified Files"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"JSON",
+				"Set Syntax: JSON"
+			],
+			[
+				"bea",
+				"BeautifyRuby"
+			],
+			[
+				"JSO",
+				"Set Syntax: JSON"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"it blame",
+				"Git: Blame"
+			],
+			[
+				"bame",
+				"Git: Blame"
+			],
+			[
+				"git  bla",
+				"Git: Blame"
+			],
+			[
+				"elete",
+				"File: Delete"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"upgad",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"git his",
+				"Git: Commit history"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"checkout",
+				"Git: Checkout Current File"
+			],
+			[
+				"renm",
+				"File: Rename"
+			],
+			[
+				"glame",
+				"Git: Blame"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Snippet: 	",
+				"Snippet: html"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"git comm",
+				"Git: Commit history"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"renme",
+				"File: Rename"
+			],
+			[
+				"toggle",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sidbar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"bla",
+				"Git: Blame"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list page",
+				"Package Control: List Packages"
+			],
+			[
+				"syntaru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"gt bla",
+				"Git: Blame"
+			],
+			[
+				"upr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"comb",
+				"Sort via CSScomb"
+			],
+			[
+				"css c",
+				"Sort via CSScomb"
+			],
+			[
+				"css",
+				"Sort via CSScomb"
+			],
+			[
+				"git an",
+				"Git: Toggle Annotations"
+			],
+			[
+				"anno",
+				"Git: Toggle Annotations"
+			],
+			[
+				"blam",
+				"Git: Blame"
+			],
+			[
+				"ct",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"cta",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"ctags",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"tidt",
+				"Tidy HTML"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				":undo",
+				"Tag: Remove All Attributes From Tags in Document"
+			],
+			[
+				"packag",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"oack",
+				"Package Control: Install Package"
+			],
+			[
+				"packge i",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ash/Personal/code-cookies/client/comments/new-comment.html",
+		"/Users/ash/Personal/code-cookies/client/comments/new-comment.coffee",
+		"/Users/ash/Personal/code-cookies/client/router.coffee",
+		"/Users/ash/Personal/code-cookies/collections/code_cookies.coffee",
+		"/Users/ash/Personal/code-cookies/client/helpers/gravatar.coffee",
+		"/Users/ash/Personal/code-cookies/client/nav.coffee",
+		"/Users/ash/Personal/code-cookies/client/nav.html",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/new_code_cookie.coffee",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/new_code_cookie.html",
+		"/Users/ash/Personal/code-cookies/client/includes/accounts-ui.coffee",
+		"/Users/ash/Personal/code-cookies/packages/accounts-ui-bootstrap-dropdown/login_buttons_dropdown.html",
+		"/Users/ash/Personal/code-cookies/code-cookies.css",
+		"/Users/ash/Personal/code-cookies/lib/permissions.coffee",
+		"/Users/ash/Personal/code-cookies/lib/collections/notifications.coffee",
+		"/Users/ash/Personal/code-cookies/lib/collections/comments.coffee",
+		"/Users/ash/Personal/code-cookies/lib/collections/comments.js",
+		"/Users/ash/Personal/code-cookies/lib/collections/code_cookies.coffee",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookies_list.coffee",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie.coffee",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/new.html",
+		"/Users/ash/Personal/code-cookies/client/main.html",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/new.coffee",
+		"/Users/ash/Personal/code-cookies/client/home.html",
+		"/Users/ash/Personal/code-cookies/client/main.coffee",
+		"/Users/ash/Personal/code-cookies/client/includes/loading.html",
+		"/Users/ash/Personal/code-cookies/client/includes/access_denied.html",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie.html",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_page.html",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookies_list.html",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_brief.html",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_page.coffee",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_brief.coffee",
+		"/Users/ash/Personal/code-cookies/packages/errors/errors.js",
+		"/Users/ash/Personal/code-cookies/collections/code_cookies.js",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/cookie.html",
+		"/Users/ash/Personal/code-cookies/collections/code-cookie.coffee",
+		"/Users/ash/Personal/code-cookies/client/helpers/config.coffee",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/new.js",
+		"/Users/ash/Personal/code-cookies/client/cookies/new.html",
+		"/Users/ash/Personal/code-cookies/public/cookie.jpg",
+		"/Users/ash/Personal/code-cookies/code-cookies.js",
+		"/Users/ash/Personal/code-cookies/code-cookies.html",
+		"/Users/ash/Personal/code-cookies/smart.json",
+		"/Users/ash/Hooroo/hotels_alt/Gemfile",
+		"/Users/ash/Hooroo/hotels_alt/spec/fixtures/vcr_cassettes/booking/manager/authorize_success.yml",
+		"/Users/ash/Hooroo/hotels_alt/spec/fixtures/vcr_cassettes/booking/manager/authorize_success_good.yml",
+		"/Users/ash/Hooroo/hotels_alt/app/models/bookings/service/command_strategy/self_managed.rb",
+		"/Users/ash/Hooroo/hotels_alt/spec/models/bookings/service/command_strategy/self_managed_spec.rb",
+		"/Users/ash/Hooroo/hotels_alt/app/models/bookings/service/command/capture_payment.rb",
+		"/Users/ash/Hooroo/hotels_alt/app/models/bookings/service/command_strategy/default_amend_commands.rb",
+		"/Users/ash/Hooroo/hotels_alt/spec/shared/behaviour/command_strategy.rb",
+		"/Users/ash/Hooroo/hotels_alt/spec/shared/booking/authorise_commands_shared.rb",
+		"/Users/ash/Hooroo/hotels_alt/app/models/bookings/service/command_strategy/authorise_commands.rb",
+		"/Users/ash/Hooroo/hotels_alt/spec/models/bookings/service/command_strategy/pegasus_spec.rb",
+		"/Users/ash/Hooroo/hotels_alt/spec/models/bookings/service/command_strategy/channel_manager_spec.rb",
+		"/Users/ash/Hooroo/hotels_alt/spec/models/bookings/service/command_strategy/ean_spec.rb",
+		"/Users/ash/Hooroo/hotels_alt/app/models/bookings/service/command_strategy/channel_manager.rb",
+		"/Users/ash/Hooroo/hotels_alt/spec/integration/booking/service/job/manager_integration_spec.rb",
+		"/Users/ash/Hooroo/hotels_alt/app/models/bookings/service/job/command_strategy/pegasus.rb",
+		"/Users/ash/Hooroo/hotels_alt/app/models/bookings/service/job/command_strategy/locally_managed.rb",
+		"/Users/ash/Hooroo/hotels_alt/app/models/developer/feature.rb",
+		"/Users/ash/Hooroo/hotels_alt/app/models/bookings/service/job/command_strategy/ean.rb",
+		"/Users/ash/Hooroo/hotels_alt/app/models/bookings/service/command_strategy/pegasus.rb",
+		"/Users/ash/Hooroo/hotels_alt/app/models/bookings/service/command_strategy/ean.rb",
+		"/Users/ash/Hooroo/hotels_alt/spec/acceptance/new/extranet/bookings/cancel_pegasus_external_offer_spec.rb",
+		"/Users/ash/Hooroo/hotels_alt/spec/acceptance/old/extranet/security/dashboard/booking_scenarios_spec.rb",
+		"/Users/ash/Hooroo/hotels_alt/spec/views/extranet/bookings/show.html.haml_spec.rb",
+		"/Users/ash/Hooroo/hotels/spec/acceptance/new/extranet/bookings/cancel_pegasus_external_offer_spec.rb",
+		"/Users/ash/Hooroo/hotels/spec/views/extranet/bookings/show.html.haml_spec.rb",
+		"/Users/ash/Hooroo/hotels/spec/acceptance/old/extranet/booking_dashboard/booking_dashboard_amend_scenario_spec.rb",
+		"/Users/ash/Hooroo/hotels/app/views/extranet/bookings/_amend_action.html.haml",
+		"/Users/ash/Hooroo/hotels/app/decorators/booking_decorator.rb",
+		"/Users/ash/Hooroo/hotels/spec/decorators/booking_decorator_spec.rb",
+		"/Users/ash/Hooroo/hotels/app/models/bookings/service/job/command_strategy/locally_managed.rb",
+		"/Users/ash/Hooroo/hotels/app/models/bookings/service/job/command_strategy/channel_manager.rb",
+		"/Users/ash/Hooroo/hotels/config/initializers/middleware.rb",
+		"/Users/ash/Hooroo/hotels/app/middleware/selective_params_parser.rb",
+		"/Users/ash/Hooroo/hotels/app/models/audit.rb",
+		"/Users/ash/Hooroo/hotels/app/models/bookings/booking.rb",
+		"/Users/ash/Hooroo/hotels/app/models/booking_inventory/local/validations.rb",
+		"/Users/ash/Hooroo/hotels/app/models/bookings/service/command/capture_payment.rb",
+		"/Users/ash/Hooroo/hotels/app/models/customer_payment.rb",
+		"/Users/ash/Hooroo/hotels/app/models/bookings/transaction.rb",
+		"/Users/ash/Hooroo/hotels/app/models/bookings/service/job/sequence_executer.rb",
+		"/Users/ash/Hooroo/hotels/app/decorators/audit_decorator.rb",
+		"/Users/ash/Hooroo/hotels/app/models/bookings/service/job/solo_executer.rb",
+		"/Users/ash/Hooroo/hotels/spec/acceptance/old/consumer/enquiry/enquiry_spec.rb",
+		"/private/tmp/blah.txt",
+		"/Users/ash/Hooroo/hotels/app/models/bookings/lifecycle.rb",
+		"/Users/ash/Hooroo/hotels/spec/support/blueprints.rb",
+		"/Users/ash/Hooroo/hotels/app/controllers/extranet/bookings_controller.rb",
+		"/Users/ash/Hooroo/hotels/spec/controllers/extranet/bookings_controller_spec.rb",
+		"/Users/ash/Hooroo/hotels/spec/controllers/consumer/bookings_controller_spec.rb",
+		"/Users/ash/Hooroo/hotels/spec/acceptance/new/extranet/bookings/booking_refund_scenario_spec.rb",
+		"/Users/ash/Hooroo/hotels/spec/acceptance/new/consumer/booking/ean_booking_spec.rb",
+		"/Users/ash/Hooroo/hotels/spec/acceptance/support/ui_driver/extranet/bookings/booking_page/amend_cancel_page.rb",
+		"/Users/ash/Hooroo/hotels/config/environments/development.rb",
+		"/Users/ash/Hooroo/hotels/spec/models/inventory/repository/ean/room_type_repository_spec.rb",
+		"/Users/ash/Hooroo/hotels/app/models/booking_inventory/ean/strategy.rb",
+		"/Users/ash/Hooroo/hotels/spec/acceptance/new/consumer/booking/failed_ean_booking_spec.rb",
+		"/Users/ash/Hooroo/hotels/spec/fixtures/vcr_cassettes/ean/client/hotel_availability_lookup_success.yml",
+		"/Users/ash/Hooroo/hotels/spec/fixtures/vcr_cassettes/booking/inventory/card_required.yml",
+		"/Users/ash/Hooroo/hotels/spec/acceptance/new/consumer/flight_booker_spec.rb",
+		"/Users/ash/Hooroo/hotels/spec/fixtures/vcr_cassettes/ean/content/hotel_room_availability_response_with_availability.yml",
+		"/Users/ash/Hooroo/hotels/app/models/bookings/service/command.rb",
+		"/Users/ash/Hooroo/hotels/app/models/bookings/validations/booking.rb",
+		"/Users/ash/Hooroo/hotels/app/models/bookings/booking_factory.rb",
+		"/Users/ash/Hooroo/hotels/config/locales/en.yml",
+		"/Users/ash/Hooroo/hotels/config/routes.rb",
+		"/Users/ash/Hooroo/hotels/config/initializers/enable_sticky_params.rb",
+		"/Users/ash/Hooroo/hotels/app/views/extranet/bookings/show.html.haml",
+		"/Users/ash/Hooroo/hotels/spec/acceptance/old/extranet/booking_dashboard/booking_dashboard_cancel_scenario_spec.rb",
+		"/Users/ash/Hooroo/hotels/test/smoke/smoke_test_spec.rb",
+		"/Users/ash/Hooroo/hotels/config/application.rb",
+		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/recipes/default.rb",
+		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/attributes/default.rb",
+		"/Users/ash/Hooroo/hotels/cookbooks/main/recipes/default.rb",
+		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/templates/default/elasticsearch_monitrc.conf.erb",
+		"/Users/ash/Hooroo/hotels/config/redis.yml",
+		"/Users/ash/Hooroo/hotels/cookbooks/redis/attributes/default.rb",
+		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/templates/default/elasticsearch.yml.erb",
+		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/templates/default/logging.yml.erb",
+		"/private/tmp/elasticsearch-0.90.5/config/elasticsearch.yml",
+		"/Users/ash/Hooroo/hotels/cookbooks/resque/recipes/default.rb",
+		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/templates/default/logging.yml",
+		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/templates/default/elasticsearch.yml",
+		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/files/default/elasticsearch.yml",
+		"/Users/ash/Hooroo/hotels/config/initializers/better_logging.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/Users/ash/Personal/code-cookies/packages/accounts-ui-bootstrap-dropdown/",
+			"/Users/ash/Personal/code-cookies/packages/accounts-ui-bootstrap-dropdown/*.js",
+			"/Users/ash/Personal/code-cookies/packages/accounts-ui-bootstrap-dropdown",
+			"-.meteor/",
+			".meteor",
+			"",
+			"*.yml",
+			"",
+			"spec/",
+			"",
+			"-spec/,*.rb",
+			"-spec/",
+			"",
+			"spec/acceptance",
+			"",
+			"*.rb",
+			"",
+			"spec/acceptance/new",
+			"",
+			"*.yml",
+			"*.rb",
+			"",
+			"/Users/ash/Hooroo/hotels/cookbooks/redis",
+			"config/initializers",
+			"",
+			"spec/acceptance/new",
+			"",
+			"/Users/ash/Hooroo/hotels/cookbooks",
+			"cookbooks/",
+			"",
+			"*css*",
+			"",
+			"spec/",
+			"-spec/",
+			"",
+			"-spec/",
+			"",
+			"/Users/ash/Hooroo/hotels/cookbooks",
+			"",
+			"/Users/ash/Hooroo/hotels/cookbooks",
+			"",
+			"/Users/ash/Hooroo/hotels/cookbooks",
+			"",
+			"/Users/ash/Hooroo/hotels/cookbooks",
+			"",
+			"*.rb",
+			"",
+			"-spec/",
+			"",
+			"-spec/",
+			"",
+			"*.js*",
+			"-db/",
+			"",
+			"*js*",
+			"",
+			"*.rb,-db/,-spec/",
+			"*.rb,-db/",
+			"*.rb",
+			"",
+			"*.rb",
+			"",
+			"*.rb",
+			"",
+			"spec/*",
+			"",
+			"*js*",
+			"",
+			"spec/",
+			"-spec/",
+			"",
+			"*coffee*",
+			"-*.css*,-spec/",
+			"-*.css*",
+			"",
+			"-spec/*",
+			"",
+			"spec/*",
+			"-spec/*",
+			"spec/*",
+			"",
+			"-spec/",
+			"",
+			"db/",
+			"spec/",
+			"",
+			"-spec/,-db/",
+			"",
+			"-spec/",
+			"*.rb",
+			"",
+			"-spec/",
+			"spec/",
+			"",
+			"spec/",
+			"",
+			"test/smoke",
+			"",
+			"spec/acceptance/*",
+			"spec/*",
+			"",
+			"*.rb",
+			"",
+			"spec/models/",
+			"spec/",
+			"-spec/,-test/",
+			"-spec/",
+			"",
+			"*.yml",
+			"",
+			"*.yaml",
+			"*.yml",
+			"",
+			"*.rb,-db/migrate,-spec/",
+			"*.rb,-db/migrate",
+			"*.rb",
+			"",
+			"-spec/,*.rb",
+			"-spec/",
+			"",
+			"config/",
+			"",
+			"*.rb",
+			"",
+			"-spec/",
+			"",
+			"-spec/,-db/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"currentCookie",
+			"body",
+			"\"",
+			"commentAttributes",
+			"displayName",
+			"email",
+			"\\.loginButtons",
+			"loginButtons",
+			"\"",
+			"-fluid",
+			"codeCookieBrief",
+			"\"",
+			"codeCookie",
+			"\"",
+			"audit log",
+			"3500900010012111",
+			"88032000",
+			"https://accreditation.datacash.com/Transaction/jetstar_a",
+			"use_vc",
+			"https://accreditation.datacash.com/Transaction/jetstar_a",
+			"authorize_success",
+			"CapturePayment",
+			"AuthorisePayment",
+			"togg",
+			"Command::CapturePayment",
+			"it_should_behave_like Bookings::Service::CommandStrategy",
+			"shared",
+			"CommandStrategy",
+			"Bookings::Service::CommandStrategy",
+			"CommandStrategy::AuthoriseCommands",
+			"one_stage_payment_processing",
+			"feature_toggle_state",
+			"one_stage_payment_processing",
+			"CM",
+			"exclude_path_roots",
+			"Audit",
+			"_for",
+			"payment_reference",
+			"validate_refund_amount_available",
+			"doon",
+			"refund exceeds total customer",
+			"audit!",
+			"audit",
+			"booking_id:",
+			"booking_id =>",
+			"udit",
+			"booking_id",
+			"Audit.new",
+			"Audit.create",
+			"Audit",
+			"audits",
+			"successful_audits",
+			"latest_successful_audits",
+			"make_book",
+			"removal of o",
+			"booked",
+			"Property.bl",
+			"def booked\\?",
+			"def booked\\>",
+			"booked?",
+			"hotelier_with_ean_property",
+			"using_wait_time",
+			"spec",
+			"ean_cancellation_policy",
+			"Airbrake.notify",
+			"Property.make(:ean",
+			"Property.make_unsaved(:ean",
+			"acceptance/ean_booking",
+			"/ean-services/rs/hotel/v3/avail",
+			"point_in_time",
+			"http://api.eancdn.com/ean-services/rs/hotel/v3/avail?apiKey=zxsk4jpycx6ckcxhywmfukx6&arrivalDate=11/01/2013&cid=55505&currencyCode=AUD&departureDate=11/03/2013&hotelId=115902&includeDetails=true&includeRoomImages=true&minorRev=20&options=HOTEL_DETAILS,ROOM_TYPES,ROOM_AMENITIES,PROPERTY_AMENITIES&room1=1&supplierType=E",
+			"filtered",
+			"use_vcr_cassette",
+			"supplierType",
+			"http://api.eancdn.com/ean-services/rs/hotel/v3/avail?apiKey=zxsk4jpycx6ckcxhywmfukx6&arrivalDate=11/01/2013&cid=55505&currencyCode=AUD&departureDate=11/03/2013&hotelId=115902&includeDetails=true&includeRoomImages=true&minorRev=20&options=HOTEL_DETAILS,ROOM_TYPES,ROOM_AMENITIES,PROPERTY_AMENITIES&room1=2&supplierType=E",
+			"hotel_room_availability_response_with_availability",
+			"HotelRoomAvailabilityResponse",
+			"availability",
+			"errors",
+			"availability",
+			"errors",
+			"availability",
+			"The reservation details you have selected are not available.",
+			"make_booking_with_extra_occupants",
+			"brand",
+			"make_booking_with_extra_occupants",
+			"eager",
+			"sticky",
+			"sticky_parameters",
+			"ACTIONABLE_AUDITS",
+			"update_action_required",
+			"ACTIONABLE_AUDITS",
+			"action",
+			"Amend/Cancel",
+			"Amend/Can",
+			"SelectiveParamsParser",
+			"thre",
+			"load_booking",
+			"make_booking",
+			"ean",
+			"hotelier",
+			":ean",
+			"hotelier",
+			"New booking value",
+			"string",
+			"/opt",
+			"0.90.5",
+			"basedir",
+			"RAILS_ENV",
+			"host",
+			"Statter",
+			"EnvironmentFactory",
+			"UnableToResolveDNS",
+			"Exceptions",
+			"env",
+			"EnvironmentFactory",
+			"backed_by_ean",
+			"ean",
+			"User",
+			"user",
+			"visible",
+			"cancel",
+			"booking_amend_cancel_page",
+			"amend_async!",
+			"AmendManager",
+			"def make_booking_with_extra_occupants",
+			"\"",
+			" "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"content",
+			"'",
+			"attrs",
+			"'",
+			"",
+			"'",
+			"Amend",
+			"#{node[:elasticsearch][:base_dir]}",
+			"#{node[:elasticsearch][:version]}",
+			"env_label",
+			"'",
+			"property_id",
+			"comment.",
+			"",
+			"\" \"",
+			"feature",
+			"Base",
+			":",
+			"shot -c /Volumes/NIFTY/rsnapshot.conf",
+			"local/bin",
+			"",
+			"qff_points_earned",
+			"earned_qff_points?",
+			"eligible_to_earn_points_for\\?",
+			"booking_eligible_for_qff_points",
+			"eligible_for_qff_points",
+			"eligible_for_points?",
+			"subject",
+			"get_brand",
+			"Rails.logger.warn",
+			"Rails.logger.info",
+			"  ",
+			"ensure_correct_inventory_provider_set",
+			"ensure_inventory_provider_set",
+			"clean_ota_hotel_code",
+			"",
+			"subject { ",
+			"ota_room_type_codes_required",
+			"ota_hotel_codes_required?",
+			"clean_based_on_inventory_provider",
+			"AB;1234",
+			"csv_row",
+			"card_number_is_type",
+			"cache_key_for_hotel_code",
+			"cache_key_for_hotel_code\n",
+			"Qantas",
+			"",
+			"\\n:",
+			"LineItemCategory.price_adjustment",
+			"LineItemCategory.fee",
+			"LineItemCategory.hotel_charge",
+			"\\n",
+			"make_from_net",
+			"total_points",
+			"bonus_points",
+			"base_points",
+			"calculate_total_points",
+			"calculate_bonus_points",
+			"calculate_base_points",
+			"isQffPartner",
+			"is_qff_partner",
+			"QffStrategy",
+			"",
+			"includeDetails=true&sort=OVERALL_VALUE",
+			"require 'ruby-progressbar'",
+			"require 'progressbar'",
+			"10",
+			"api.eancdn.com",
+			"https://api.eancdn.com",
+			"api.eancdn.com",
+			"infant",
+			"",
+			"minorRev=20",
+			"\" => ",
+			"\" =>",
+			" =>",
+			"HotelAvailability",
+			"ean",
+			"find_all_offers_for_property",
+			",",
+			"->",
+			"australia",
+			"ean",
+			"subject.perform",
+			"subject.",
+			"InventoryProvider",
+			"inventory_provider_code",
+			"local_locations",
+			"config.options",
+			"o.options",
+			"options",
+			"cheapest_candidate_offers_for_properties",
+			"row['\\1']",
+			"row.['\\1']",
+			"FIX",
+			"BW;97207",
+			"booking",
+			"Booking",
+			"ssh",
+			"class}:",
+			"file_glob",
+			"log",
+			"input",
+			"process",
+			"Property.full_text_search",
+			"",
+			"estinationLocation",
+			"location",
+			"pathAndQueryString",
+			"make_unsaved",
+			"",
+			"<%= self.description %>",
+			"Feature.active\\?",
+			"RedisConfig::DB_FEATURE",
+			"RedisConfig::DB_AB_SPLIT",
+			"RedisConfig::DB_ACTIVITY_FEED",
+			"RedisConfig::DB_CACHING",
+			"RedisConfig::DB_RESQUE",
+			"availability_for_properties_options",
+			"\"",
+			"caching_options",
+			"load_the_config",
+			"DEFAULT_CACHE_TIME",
+			"https://does-not-matter:does-not-matter@ud-uat.pegs.com",
+			"does-not-matter:does-not-matter",
+			"SEARCH_CONFIG",
+			"BASE_CONFIG",
+			"BASE_HCD_CONFIG"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 17,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/ash/Personal/code-cookies/client/home.html",
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/ash/Personal/code-cookies/client/notifications/notifications.html",
+					"settings":
+					{
+						"buffer_size": 688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								623,
+								623
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/ash/Personal/code-cookies/client/notifications/notifications.coffee",
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								333,
+								333
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/ash/Personal/code-cookies/client/main.html",
+					"settings":
+					{
+						"buffer_size": 360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/ash/Personal/code-cookies/collections/notifications.coffee",
+					"settings":
+					{
+						"buffer_size": 419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/ash/Personal/code-cookies/client/comments/comment_list.html",
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/ash/Personal/code-cookies/client/comments/comment.html",
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/ash/Personal/code-cookies/server/publications.coffee",
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/ash/Personal/code-cookies/collections/comments.coffee",
+					"settings":
+					{
+						"buffer_size": 645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/ash/Personal/code-cookies/client/comments/new_comment.coffee",
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/ash/Personal/code-cookies/client/comments/new_comment.html",
+					"settings":
+					{
+						"buffer_size": 585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								29
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "code_cookie.html",
+					"settings":
+					{
+						"buffer_size": 1907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1474,
+								1474
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 32.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "code_cookies_list.html",
+					"settings":
+					{
+						"buffer_size": 715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/ash/Personal/code-cookies/client/main.coffee",
+					"settings":
+					{
+						"buffer_size": 168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "code_cookie.coffee",
+					"settings":
+					{
+						"buffer_size": 279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/Users/ash/Personal/code-cookies/code-cookies.css",
+					"settings":
+					{
+						"buffer_size": 758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								750,
+								750
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 266.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "code_cookie_page.coffee",
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								47
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"settings":
+					{
+						"buffer_size": 2046,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										379,
+										392
+									],
+									[
+										988,
+										1001
+									],
+									[
+										1416,
+										1429
+									],
+									[
+										1623,
+										1636
+									],
+									[
+										1863,
+										1876
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.tests":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rou",
+				"client/router.coffee"
+			],
+			[
+				"rout",
+				"client/router.coffee"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"autsuccym",
+				"spec/fixtures/vcr_cassettes/booking/manager/authorize_success.yml"
+			],
+			[
+				"authorize_success",
+				"spec/fixtures/vcr_cassettes/booking/manager/authorize_success.yml"
+			],
+			[
+				"speche",
+				"spec/spec_helper.rb"
+			],
+			[
+				"spec/integration/booking/service/manager_integration_spec.rb",
+				"spec/integration/booking/service/manager_integration_spec.rb"
+			],
+			[
+				"capturepayment",
+				"app/models/bookings/service/command/capture_payment.rb"
+			],
+			[
+				"default_amend_commands",
+				"app/models/bookings/service/command_strategy/default_amend_commands.rb"
+			],
+			[
+				"selfmana",
+				"app/models/bookings/service/command_strategy/self_managed.rb"
+			],
+			[
+				"channelmanager",
+				"app/models/bookings/service/command_strategy/channel_manager.rb"
+			],
+			[
+				"channel_manager_spec.rb",
+				"spec/models/bookings/service/command_strategy/channel_manager_spec.rb"
+			],
+			[
+				"spec/models/bookings/service/command_strategy/self_managed_spec.rb",
+				"spec/models/bookings/service/command_strategy/self_managed_spec.rb"
+			],
+			[
+				"authcomm",
+				"app/models/bookings/service/command_strategy/authorise_commands.rb"
+			],
+			[
+				"feat",
+				"app/models/developer/feature.rb"
+			],
+			[
+				"spec/acceptance/old/extranet/security/dashboard/booking_scenarios_spec.rb",
+				"spec/acceptance/old/extranet/security/dashboard/booking_scenarios_spec.rb"
+			],
+			[
+				"spec/acceptance/new/extranet/bookings/cancel_pegasus_external_offer_spec.rb",
+				"spec/acceptance/new/extranet/bookings/cancel_pegasus_external_offer_spec.rb"
+			],
+			[
+				"spec/views/extranet/bookings/show.html.haml_spec.rb",
+				"spec/views/extranet/bookings/show.html.haml_spec.rb"
+			],
+			[
+				"locallman",
+				"app/models/bookings/service/job/command_strategy/locally_managed.rb"
+			],
+			[
+				"johannman",
+				"app/models/bookings/service/job/command_strategy/channel_manager.rb"
+			],
+			[
+				"bookdesp",
+				"spec/decorators/booking_decorator_spec.rb"
+			],
+			[
+				"selec",
+				"app/middleware/selective_params_parser.rb"
+			],
+			[
+				"capture",
+				"app/models/bookings/service/command/capture_payment.rb"
+			],
+			[
+				"custopa",
+				"app/models/customer_payment.rb"
+			],
+			[
+				"trans",
+				"app/models/bookings/transaction.rb"
+			],
+			[
+				"book",
+				"app/models/bookings/booking.rb"
+			],
+			[
+				"tr",
+				"app/models/bookings/transaction.rb"
+			],
+			[
+				"auditc",
+				"app/decorators/audit_decorator.rb"
+			],
+			[
+				"audit",
+				"app/models/audit.rb"
+			],
+			[
+				"soloexec",
+				"app/models/bookings/service/job/solo_executer.rb"
+			],
+			[
+				"soloeq",
+				"spec/acceptance/old/consumer/enquiry/enquiry_spec.rb"
+			],
+			[
+				"booking",
+				"app/models/bookings/booking.rb"
+			],
+			[
+				"_amend",
+				"app/views/extranet/bookings/_amend_action.html.haml"
+			],
+			[
+				"bookdec",
+				"app/decorators/booking_decorator.rb"
+			],
+			[
+				"showhtspec",
+				"spec/views/extranet/bookings/show.html.haml_spec.rb"
+			],
+			[
+				"spec/acceptance/old/extranet/booking_dashboard/booking_dashboard_amend_scenario_spec.rb",
+				"spec/acceptance/old/extranet/booking_dashboard/booking_dashboard_amend_scenario_spec.rb"
+			],
+			[
+				"blue",
+				"spec/support/blueprints.rb"
+			],
+			[
+				"auditdec",
+				"app/decorators/audit_decorator.rb"
+			],
+			[
+				"bookingrb",
+				"app/models/bookings/booking.rb"
+			],
+			[
+				"_amend_haml",
+				"app/views/extranet/bookings/_amend_action.html.haml"
+			],
+			[
+				"exbokcon",
+				"app/controllers/extranet/bookings_controller.rb"
+			],
+			[
+				"exbookings_controller_spec.rb",
+				"spec/controllers/extranet/bookings_controller_spec.rb"
+			],
+			[
+				"bookings_controller_spec.rb",
+				"spec/controllers/consumer/bookings_controller_spec.rb"
+			],
+			[
+				"eanstra",
+				"app/models/booking_inventory/ean/strategy.rb"
+			],
+			[
+				"hoteavailyml",
+				"spec/fixtures/vcr_cassettes/ean/content/hotel_room_availability_response_with_availability.yml"
+			],
+			[
+				"eanstrate",
+				"app/models/booking_inventory/ean/strategy.rb"
+			],
+			[
+				"bookingfactory",
+				"app/models/bookings/booking_factory.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"enab",
+				"config/initializers/enable_sticky_params.rb"
+			],
+			[
+				"select",
+				"app/middleware/selective_params_parser.rb"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+				"deve",
+				"config/environments/development.rb"
+			],
+			[
+				"dev",
+				"config/environments/development.rb"
+			],
+			[
+				"extrbookcon",
+				"app/controllers/extranet/bookings_controller.rb"
+			],
+			[
+				"blu",
+				"spec/support/blueprints.rb"
+			],
+			[
+				"amencanpa",
+				"spec/acceptance/support/ui_driver/extranet/bookings/booking_page/amend_cancel_page.rb"
+			],
+			[
+				"booking_refund_scenario_spec.rb",
+				"spec/acceptance/new/extranet/bookings/booking_refund_scenario_spec.rb"
+			],
+			[
+				"redisym",
+				"config/redis.yml"
+			],
+			[
+				"betterlog",
+				"lib/better_logger.rb"
+			],
+			[
+				"enva",
+				"lib/statter/environment_factory.rb"
+			],
+			[
+				"envfacsp",
+				"spec/lib/statter/environment_factory_spec.rb"
+			],
+			[
+				"bettloggsp",
+				"spec/lib/better_logger_spec.rb"
+			],
+			[
+				"amend_cancel_page.rb",
+				"spec/acceptance/support/ui_driver/extranet/bookings/booking_page/amend_cancel_page.rb"
+			],
+			[
+				"audi",
+				"app/models/audit.rb"
+			],
+			[
+				"aud",
+				"app/decorators/audit_decorator.rb"
+			],
+			[
+				"bookde",
+				"app/decorators/booking_decorator.rb"
+			],
+			[
+				"proc",
+				"Procfile.zeus"
+			],
+			[
+				"stat.r",
+				"lib/statter/stat.rb"
+			],
+			[
+				"spec/acceptance/new/extranet/bookings/booking_refund_scenario_spec.rb",
+				"spec/acceptance/new/extranet/bookings/booking_refund_scenario_spec.rb"
+			],
+			[
+				"base",
+				"lib/statter/environment/base.rb"
+			],
+			[
+				"sta",
+				"config/statter.yml"
+			],
+			[
+				"homecon",
+				"app/controllers/consumer/home_controller.rb"
+			],
+			[
+				"amenc",
+				"spec/acceptance/support/ui_driver/extranet/bookings/booking_page/amend_cancel_page.rb"
+			],
+			[
+				"prod",
+				"config/environments/production.rb"
+			],
+			[
+				"accep",
+				"app/models/bookings/service/command/accept_transaction.rb"
+			],
+			[
+				"acceptr",
+				"app/models/bookings/service/command/accept_transaction.rb"
+			],
+			[
+				"pro",
+				"Procfile"
+			],
+			[
+				"propcowo",
+				"lib/gigya_comments/workers/property_comments_worker.rb"
+			],
+			[
+				"redico",
+				"lib/redis_config.rb"
+			],
+			[
+				"datym",
+				"config/database.yml"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"comment",
+				"lib/gigya_comments/comment.rb"
+			],
+			[
+				"resqrecdef",
+				"cookbooks/resque/recipes/default.rb"
+			],
+			[
+				"resq",
+				"config/initializers/resque.rb"
+			],
+			[
+				"gicomm",
+				"lib/gigya_comments.rb"
+			],
+			[
+				"conf",
+				"config.ru"
+			],
+			[
+				"gemflo",
+				"Gemfile.lock"
+			],
+			[
+				"initresq",
+				"config/initializers/resque.rb"
+			],
+			[
+				"worker",
+				"lib/airbrake_delivery_worker.rb"
+			],
+			[
+				"prop",
+				"app/models/property.rb"
+			],
+			[
+				"db/migrate/20130626000541_add_customer_to_article_comment.rb",
+				"db/migrate/20130626000541_add_customer_to_article_comment.rb"
+			],
+			[
+				"articlecomm",
+				"app/models/content/article_comment.rb"
+			],
+			[
+				"add_ph",
+				"db/migrate/20130625224354_add_photo_attributes_to_article_comment.rb"
+			],
+			[
+				"add_photo_attributes_to_article_comment",
+				"db/migrate/20130625224354_add_photo_attributes_to_article_comment.rb"
+			],
+			[
+				"gigya",
+				"lib/gigya_comments.rb"
+			],
+			[
+				"art",
+				"app/models/content/article.rb"
+			],
+			[
+				"createartic",
+				"db/migrate/20130625220133_create_article_comments.rb"
+			],
+			[
+				"createarti",
+				"db/migrate/20121217100858_baseline/20120604011134_create_articles.rb"
+			],
+			[
+				"db/migrate/20130625220133_create_content_article_comments.rb",
+				"db/migrate/20130625220133_create_content_article_comments.rb"
+			],
+			[
+				"arti",
+				"app/models/content/article.rb"
+			],
+			[
+				"gigy",
+				"config/gigya.yml"
+			],
+			[
+				"article",
+				"app/models/content/article.rb"
+			],
+			[
+				"gigde",
+				"script/gigya-debug"
+			],
+			[
+				"peg.ra",
+				"lib/tasks/pegasus.rake"
+			],
+			[
+				"property.rb",
+				"app/models/property.rb"
+			],
+			[
+				"gig",
+				"config/initializers/gigya.rb"
+			],
+			[
+				"after_re",
+				"deploy/after_restart.rb"
+			],
+			[
+				"afterres",
+				"deploy/after_restart.rb"
+			],
+			[
+				"scopec",
+				"lib/scoped_cache.rb"
+			],
+			[
+				"dealcon",
+				"app/controllers/consumer/deals_controller.rb"
+			],
+			[
+				"f",
+				"app/models/feature.rb"
+			],
+			[
+				"eyd",
+				"config/eydeploy.rb"
+			],
+			[
+				"fe",
+				"app/models/feature.rb"
+			],
+			[
+				"fea",
+				"app/models/feature.rb"
+			],
+			[
+				"red",
+				"lib/redis_config.rb"
+			],
+			[
+				"febas",
+				"lib/feature/base.rb"
+			],
+			[
+				"noxn",
+				"lib/nox_notifier.rb"
+			],
+			[
+				"featcon",
+				"app/controllers/developer/feature_controller.rb"
+			],
+			[
+				"devfea",
+				"app/models/developer/feature.rb"
+			],
+			[
+				"devcont",
+				"app/controllers/developer_controller.rb"
+			],
+			[
+				"peg",
+				"lib/tasks/pegasus.rake"
+			],
+			[
+				"pega",
+				"config/pegasus.yml"
+			],
+			[
+				"hap",
+				"cookbooks/haproxy/templates/default/haproxy.cfg.erb"
+			],
+			[
+				"host",
+				"cookbooks/system/recipes/hosts.rb"
+			],
+			[
+				"responsys",
+				"cookbooks/config/attributes/responsys.rb"
+			],
+			[
+				"eydepl",
+				"config/eydeploy.rb"
+			],
+			[
+				"add_slg",
+				"db/migrate/20121217100858_baseline/20121126042107_add_slug_to_tags.rb"
+			],
+			[
+				"appl",
+				"config/application.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true
+}

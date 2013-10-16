@@ -47,3 +47,12 @@ body {
 .notification .no-notifications {
   padding: 10px;
 }
+
+.nav .gravatar {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.new-comment .gravatar {
+  height: 60px;
+}
