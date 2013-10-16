@@ -1,5 +1,6 @@
 <template name="codeCookiePage">
   {{#with currentCodeCookie}}
+
     {{> codeCookie}}
 
     <!-- <div class="row">
@@ -12,13 +13,13 @@
     </div> -->
 
     <div class="row">
-      <div class="span5 offset2">
+      <div class="span5 offset1">
         <h2>Comments</h2>
       </div>
     </div>
 
     <div class="new-comment row">
-      <div class="span5 offset2">
+      <div class="span5 offset1">
         <ul>
           {{#each commentList}}
             <li>{{> comment}}</li>
@@ -28,13 +29,13 @@
     </div>
 
     <div class="row">
-      <div class="span5 offset2">
+      <div class="span5 offset1">
         <h2>New comment</h2>
       </div>
     </div>
 
     <div class="new-comment row">
-      <div class="span5 offset2">
+      <div class="span5 offset1">
         {{> newComment}}
       </div>
     </div>

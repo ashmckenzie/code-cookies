@@ -20,5 +20,8 @@ Meteor.methods
     })
 
     comment._id = Comments.insert(comment)
+
+    CodeCookies.update(comment.codeCookieId, { $inc: { commentCount: 1 }})
+
     createCommentNotification(comment)
     comment._id

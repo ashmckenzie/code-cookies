@@ -42,6 +42,7 @@ body {
 
 .code-cookie .uneditable-input, .code-cookie .uneditable-textarea {
   cursor: default;
+  width: 96%;
 }
 
 .notification .no-notifications {
