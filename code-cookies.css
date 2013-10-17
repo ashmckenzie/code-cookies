@@ -45,15 +45,55 @@ body {
   width: 96%;
 }
 
+.code-cookie .description {
+  height: 140px;
+  overflow-y: auto;
+  white-space: normal;
+}
+
 .notification .no-notifications {
   padding: 10px;
 }
 
-.nav .gravatar {
+.nav img.gravatar {
   height: 30px;
   margin-top: 5px;
 }
 
-.new-comment .gravatar {
-  height: 60px;
+.new-comment textarea {
+  width: 100%;
+}
+
+.new-comment img.gravatar {
+  height: 50px;
+}
+
+.comments {
+  list-style: none;
+  margin-left: 0;
+}
+
+.comments li {
+  background-color: #fff;
+  margin: 0 0 20px 0;
+}
+
+.comment img.gravatar {
+  height: 35px;
+}
+
+.comment .email-and-date {
+  margin-left: 10px;
+}
+
+.comment .email-and-date p {
+  margin-bottom: 0;
+}
+
+.comment .date {
+  font-size: 0.8em;
+}
+
+.comment .content {
+
 }

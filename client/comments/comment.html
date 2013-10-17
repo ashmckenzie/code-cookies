@@ -1,3 +1,20 @@
 <template name="comment">
-  {{email}} says {{content}} ~ {{dateNice createdAt}}
+  <span class="row comment">
+    <span class="row">
+      <span class="span0">
+        <img src="{{gravatarImageUrl email}}" class="gravatar" />
+      </span>
+
+      <span class="span3 email-and-date">
+        <p class="email">{{email}}</p>
+        <p class="date muted">{{dateNice createdAt}}</p>
+      </span>
+    </span>
+
+    <span class="row content">
+      <span class="span4">
+        {{content}}
+      </span>
+    </span>
+  </span>
 </template>
