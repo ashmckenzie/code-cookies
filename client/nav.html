@@ -18,17 +18,17 @@
                   New Code Cookie
                 </a>
               </li>
-              <li class="dropdown">
-                {{> notifications}}
-              </li>
             {{/if}}
           </ul>
           <ul class="nav pull-right">
             <li class="span3">
-              {{#if currentUser}}
-                <img src="{{gravatarImageUrl}}" alt="Gravatar" class="gravatar pull-right" />
-              {{/if}}
               {{loginButtons}}
+            </li>
+            <li class="span1 nogutter">
+              {{#if currentUser}}
+                <img src="{{currentUsergravatarImageUrl}}" alt="Gravatar" class="gravatar pull-right" />
+              {{/if}}
+              {{> notifications}}
             </li>
           </ul>
         </div>

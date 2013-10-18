@@ -55,7 +55,7 @@ body {
   padding: 10px;
 }
 
-.nav img.gravatar {
+.navbar img.gravatar {
   height: 30px;
   margin-top: 5px;
 }
@@ -95,5 +95,16 @@ body {
 }
 
 .comment .content {
+}
 
+.notifications a {
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.nogutter {
+  margin-left: 0;
 }
