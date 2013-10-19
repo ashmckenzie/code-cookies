@@ -380,165 +380,43 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/ash/Personal/code-cookies/client/home.html",
+			"file": "code_cookie_page.html",
 			"settings":
 			{
-				"buffer_size": 391,
+				"buffer_size": 598,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/client/notifications/notifications.html",
-			"settings":
-			{
-				"buffer_size": 688,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/client/notifications/notifications.coffee",
-			"settings":
-			{
-				"buffer_size": 333,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/client/main.html",
-			"settings":
-			{
-				"buffer_size": 360,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/collections/notifications.coffee",
-			"settings":
-			{
-				"buffer_size": 419,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/client/comments/comment_list.html",
-			"settings":
-			{
-				"buffer_size": 117,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/client/comments/comment.html",
-			"settings":
-			{
-				"buffer_size": 45,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/server/publications.coffee",
-			"settings":
-			{
-				"buffer_size": 202,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/collections/comments.coffee",
-			"settings":
-			{
-				"buffer_size": 645,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/client/comments/new_comment.coffee",
-			"settings":
-			{
-				"buffer_size": 302,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/client/comments/new_comment.html",
-			"settings":
-			{
-				"buffer_size": 585,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "code_cookie.html",
-			"settings":
-			{
-				"buffer_size": 1907,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "code_cookies_list.html",
-			"settings":
-			{
-				"buffer_size": 715,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/client/main.coffee",
-			"settings":
-			{
-				"buffer_size": 168,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "code_cookie.coffee",
-			"settings":
-			{
-				"buffer_size": 279,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/ash/Personal/code-cookies/code-cookies.css",
-			"settings":
-			{
-				"buffer_size": 758,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "code_cookie_page.coffee",
-			"settings":
-			{
-				"buffer_size": 202,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Searching 8145 files for \"currentCookie\" (regex, case sensitive)\n\n/Users/ash/Personal/code-cookies/.meteor/local/build/programs/client/app/client/code_cookies/code_cookie_page.coffee.js:\n    1  (function(){__coffeescriptShare = typeof __coffeescriptShare === 'object' ? __coffeescriptShare : {}; var share = __coffeescriptShare;\n    2  Template.codeCookiePage.helpers({\n    3:   currentCookie: function() {\n    4      var codeCookie;\n    5      codeCookie = CodeCookies.findOne(Session.get('currentCodeCookieId'));\n\n/Users/ash/Personal/code-cookies/.meteor/local/build/programs/client/app/client/code_cookies/code_cookie_page.coffee.js.map:\n    1  )]}'\n    2: {\"version\":3,\"file\":\"/client/code_cookies/code_cookie_page.coffee.js\",\"sources\":[\"code_cookie_page.coffee\"],\"names\":[],\"mappings\":\";AAAA,CAAS,MAAT,CAAQ,MAAe;CACrB,EAAe,UAAf;CACE;GAAa,CAAb,GAAa,GAAb,CAAwB,UAAS;AAE7B,CAAJ;CACS,CAAP,IAAM,OAAN;MADF;aAGE;KANW;CAAf,EAAe;CADjB;A\",\"sourcesContent\":[\"Template.codeCookiePage.helpers\\n  currentCookie: ->\\n    codeCookie = CodeCookies.findOne(Session.get('currentCodeCookieId'))\\n\\n    if !codeCookie\\n      Meteor.Router.to('home')\\n    else\\n      codeCookie\\n\"]}\n\n/Users/ash/Personal/code-cookies/.meteor/local/build/programs/client/app/client/code_cookies/template.code_cookie_page.js:\n    1: (function(){Template.__define__(\"codeCookiePage\",Package.handlebars.Handlebars.json_ast_to_func([[\"#\",[[0,\"with\"],[0,\"currentCookie\"]],[\"\\n    \",[\">\",\"codeCookie\"],\"\\n  \"]]]));\n    2  \n    3  })();\n\n/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_page.coffee:\n    1  Template.codeCookiePage.helpers\n    2:   currentCookie: ->\n    3      codeCookie = CodeCookies.findOne(Session.get('currentCodeCookieId'))\n    4  \n\n/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_page.html:\n    1  <template name=\"codeCookiePage\">\n    2:   {{#with currentCookie}}\n    3      {{> codeCookie}}\n    4    {{/with}}\n\nUnable to open /Users/ash/Personal/code-cookies/packages/spin/.meteor/meteorite/packages/spin\n5 matches across 5 files\n",
-			"settings":
-			{
-				"buffer_size": 2046,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 170.0,
+		"height": 50.0,
 		"selected_items":
 		[
 			[
-				"rename",
-				"File: Rename"
+				"close al",
+				"File: Close All"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"new fi",
+				"File: New File Relative to Current View"
+			],
+			[
+				"clos a",
+				"File: Close All"
 			],
 			[
 				"delete",
 				"File: Delete"
+			],
+			[
+				"rename",
+				"File: Rename"
 			],
 			[
 				"new file",
@@ -551,10 +429,6 @@
 			[
 				"close all",
 				"File: Close All"
-			],
-			[
-				"new fi",
-				"File: New File Relative to Current View"
 			],
 			[
 				"html",
@@ -771,10 +645,6 @@
 			[
 				"alignment",
 				"Preferences: Alignment Key Bindings – Default"
-			],
-			[
-				"new",
-				"File: New File Relative to Current View"
 			],
 			[
 				"it log",
@@ -1005,7 +875,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 647.0
+		"width": 478.0
 	},
 	"console":
 	{
@@ -1022,43 +892,59 @@
 	},
 	"file_history":
 	[
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_page.html",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookies_list.html",
+		"/Users/ash/Personal/code-cookies/collections/comments.coffee",
+		"/Users/ash/Personal/code-cookies/client/helpers/gravatar.coffee",
+		"/Users/ash/Personal/code-cookies/client/nav.html",
+		"/Users/ash/Personal/code-cookies/code-cookies.css",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/new_code_cookie.coffee",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie.html",
+		"/Users/ash/Personal/code-cookies/client/comments/comment.html",
+		"/Users/ash/Personal/code-cookies/client/comments/new_comment.html",
+		"/Users/ash/Personal/code-cookies/client/notifications/notifications.html",
+		"/Users/ash/Personal/code-cookies/server/publications.coffee",
+		"/Users/ash/Personal/code-cookies/client/whos_online/whos_online.html",
+		"/Users/ash/Personal/code-cookies/client/whos_online/whos_online_user.html",
+		"/Users/ash/Personal/code-cookies/client/whos_online/whos_online.coffee",
+		"/Users/ash/Personal/code-cookies/lib/presence.coffee",
+		"/Users/ash/Personal/code-cookies/client/main.coffee",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookies_list.coffee",
+		"/Users/ash/Personal/code-cookies/client/helpers/config.coffee",
+		"/Users/ash/Personal/code-cookies/client/includes/loading.html",
+		"/Users/ash/Personal/code-cookies/lib/permissions.coffee",
+		"/Users/ash/Personal/code-cookies/client/notifications/notification.html",
+		"/Users/ash/Personal/code-cookies/client/notifications/notifications.coffee",
+		"/Users/ash/Personal/code-cookies/collections/code_cookies.coffee",
+		"/Users/ash/Personal/code-cookies/client/home.html",
+		"/Users/ash/Personal/code-cookies/client/main.html",
+		"/Users/ash/Personal/code-cookies/collections/notifications.coffee",
+		"/Users/ash/Personal/code-cookies/client/comments/new_comment.coffee",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie.coffee",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_page.coffee",
+		"/Users/ash/Personal/code-cookies/client/helpers/date.coffee",
+		"/Users/ash/Personal/code-cookies/client/comments/comment_list.html",
+		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookies.sublime-project",
 		"/Users/ash/Personal/code-cookies/client/comments/new-comment.html",
 		"/Users/ash/Personal/code-cookies/client/comments/new-comment.coffee",
 		"/Users/ash/Personal/code-cookies/client/router.coffee",
-		"/Users/ash/Personal/code-cookies/collections/code_cookies.coffee",
-		"/Users/ash/Personal/code-cookies/client/helpers/gravatar.coffee",
 		"/Users/ash/Personal/code-cookies/client/nav.coffee",
-		"/Users/ash/Personal/code-cookies/client/nav.html",
-		"/Users/ash/Personal/code-cookies/client/code_cookies/new_code_cookie.coffee",
 		"/Users/ash/Personal/code-cookies/client/code_cookies/new_code_cookie.html",
 		"/Users/ash/Personal/code-cookies/client/includes/accounts-ui.coffee",
 		"/Users/ash/Personal/code-cookies/packages/accounts-ui-bootstrap-dropdown/login_buttons_dropdown.html",
-		"/Users/ash/Personal/code-cookies/code-cookies.css",
-		"/Users/ash/Personal/code-cookies/lib/permissions.coffee",
 		"/Users/ash/Personal/code-cookies/lib/collections/notifications.coffee",
 		"/Users/ash/Personal/code-cookies/lib/collections/comments.coffee",
 		"/Users/ash/Personal/code-cookies/lib/collections/comments.js",
 		"/Users/ash/Personal/code-cookies/lib/collections/code_cookies.coffee",
-		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookies_list.coffee",
-		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie.coffee",
 		"/Users/ash/Personal/code-cookies/client/code_cookies/new.html",
-		"/Users/ash/Personal/code-cookies/client/main.html",
 		"/Users/ash/Personal/code-cookies/client/code_cookies/new.coffee",
-		"/Users/ash/Personal/code-cookies/client/home.html",
-		"/Users/ash/Personal/code-cookies/client/main.coffee",
-		"/Users/ash/Personal/code-cookies/client/includes/loading.html",
 		"/Users/ash/Personal/code-cookies/client/includes/access_denied.html",
-		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie.html",
-		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_page.html",
-		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookies_list.html",
 		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_brief.html",
-		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_page.coffee",
 		"/Users/ash/Personal/code-cookies/client/code_cookies/code_cookie_brief.coffee",
 		"/Users/ash/Personal/code-cookies/packages/errors/errors.js",
 		"/Users/ash/Personal/code-cookies/collections/code_cookies.js",
 		"/Users/ash/Personal/code-cookies/client/code_cookies/cookie.html",
 		"/Users/ash/Personal/code-cookies/collections/code-cookie.coffee",
-		"/Users/ash/Personal/code-cookies/client/helpers/config.coffee",
 		"/Users/ash/Personal/code-cookies/client/code_cookies/new.js",
 		"/Users/ash/Personal/code-cookies/client/cookies/new.html",
 		"/Users/ash/Personal/code-cookies/public/cookie.jpg",
@@ -1133,23 +1019,7 @@
 		"/Users/ash/Hooroo/hotels/config/routes.rb",
 		"/Users/ash/Hooroo/hotels/config/initializers/enable_sticky_params.rb",
 		"/Users/ash/Hooroo/hotels/app/views/extranet/bookings/show.html.haml",
-		"/Users/ash/Hooroo/hotels/spec/acceptance/old/extranet/booking_dashboard/booking_dashboard_cancel_scenario_spec.rb",
-		"/Users/ash/Hooroo/hotels/test/smoke/smoke_test_spec.rb",
-		"/Users/ash/Hooroo/hotels/config/application.rb",
-		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/recipes/default.rb",
-		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/attributes/default.rb",
-		"/Users/ash/Hooroo/hotels/cookbooks/main/recipes/default.rb",
-		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/templates/default/elasticsearch_monitrc.conf.erb",
-		"/Users/ash/Hooroo/hotels/config/redis.yml",
-		"/Users/ash/Hooroo/hotels/cookbooks/redis/attributes/default.rb",
-		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/templates/default/elasticsearch.yml.erb",
-		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/templates/default/logging.yml.erb",
-		"/private/tmp/elasticsearch-0.90.5/config/elasticsearch.yml",
-		"/Users/ash/Hooroo/hotels/cookbooks/resque/recipes/default.rb",
-		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/templates/default/logging.yml",
-		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/templates/default/elasticsearch.yml",
-		"/Users/ash/Hooroo/hotels/cookbooks/elasticsearch/files/default/elasticsearch.yml",
-		"/Users/ash/Hooroo/hotels/config/initializers/better_logging.rb"
+		"/Users/ash/Hooroo/hotels/spec/acceptance/old/extranet/booking_dashboard/booking_dashboard_cancel_scenario_spec.rb"
 	],
 	"find":
 	{
@@ -1295,6 +1165,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"nav",
+			"\\.settings",
+			"settings",
+			"gravatarImageUrl",
+			"createdAtNice",
+			"sort",
 			"currentCookie",
 			"body",
 			"\"",
@@ -1416,13 +1292,7 @@
 			"User",
 			"user",
 			"visible",
-			"cancel",
-			"booking_amend_cancel_page",
-			"amend_async!",
-			"AmendManager",
-			"def make_booking_with_extra_occupants",
-			"\"",
-			" "
+			"cancel"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1430,6 +1300,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"currentCodeCookie",
 			"content",
 			"'",
 			"attrs",
@@ -1556,8 +1427,7 @@
 			"https://does-not-matter:does-not-matter@ud-uat.pegs.com",
 			"does-not-matter:does-not-matter",
 			"SEARCH_CONFIG",
-			"BASE_CONFIG",
-			"BASE_HCD_CONFIG"
+			"BASE_CONFIG"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1568,506 +1438,22 @@
 	"groups":
 	[
 		{
-			"selected": 17,
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/ash/Personal/code-cookies/client/home.html",
+					"file": "code_cookie_page.html",
 					"settings":
 					{
-						"buffer_size": 391,
+						"buffer_size": 598,
 						"regions":
 						{
-						},
-						"selection":
-						[
-							[
-								342,
-								342
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/ash/Personal/code-cookies/client/notifications/notifications.html",
-					"settings":
-					{
-						"buffer_size": 688,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								623,
-								623
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/ash/Personal/code-cookies/client/notifications/notifications.coffee",
-					"settings":
-					{
-						"buffer_size": 333,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								333,
-								333
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/ash/Personal/code-cookies/client/main.html",
-					"settings":
-					{
-						"buffer_size": 360,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/ash/Personal/code-cookies/collections/notifications.coffee",
-					"settings":
-					{
-						"buffer_size": 419,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								248,
-								419
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/ash/Personal/code-cookies/client/comments/comment_list.html",
-					"settings":
-					{
-						"buffer_size": 117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79,
-								79
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/Users/ash/Personal/code-cookies/client/comments/comment.html",
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								32,
-								32
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/Users/ash/Personal/code-cookies/server/publications.coffee",
-					"settings":
-					{
-						"buffer_size": 202,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/Users/ash/Personal/code-cookies/collections/comments.coffee",
-					"settings":
-					{
-						"buffer_size": 645,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								509,
-								509
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/Users/ash/Personal/code-cookies/client/comments/new_comment.coffee",
-					"settings":
-					{
-						"buffer_size": 302,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								206,
-								206
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/Users/ash/Personal/code-cookies/client/comments/new_comment.html",
-					"settings":
-					{
-						"buffer_size": 585,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								29
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "code_cookie.html",
-					"settings":
-					{
-						"buffer_size": 1907,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1474,
-								1474
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 32.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "code_cookies_list.html",
-					"settings":
-					{
-						"buffer_size": 715,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								212,
-								212
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/Users/ash/Personal/code-cookies/client/main.coffee",
-					"settings":
-					{
-						"buffer_size": 168,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								98,
-								86
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "code_cookie.coffee",
-					"settings":
-					{
-						"buffer_size": 279,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								177,
-								177
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "/Users/ash/Personal/code-cookies/code-cookies.css",
-					"settings":
-					{
-						"buffer_size": 758,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								750,
-								750
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 266.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "code_cookie_page.coffee",
-					"settings":
-					{
-						"buffer_size": 202,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								34,
-								47
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"settings":
-					{
-						"buffer_size": 2046,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										379,
-										392
-									],
-									[
-										988,
-										1001
-									],
-									[
-										1416,
-										1429
-									],
-									[
-										1623,
-										1636
-									],
-									[
-										1863,
-										1876
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
@@ -2078,14 +1464,10 @@
 						],
 						"settings":
 						{
-							"detect_indentation": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -2113,11 +1495,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -2149,6 +1538,34 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"nav",
+				"client/nav.html"
+			],
+			[
+				"css",
+				"code-cookies.css"
+			],
+			[
+				"new_c",
+				"client/comments/new_comment.html"
+			],
+			[
+				"gra",
+				"client/helpers/gravatar.coffee"
+			],
+			[
+				"coe",
+				"collections/code_cookies.coffee"
+			],
+			[
+				"commco",
+				"collections/comments.coffee"
+			],
+			[
+				"comm",
+				"client/comments/comment.html"
+			],
 			[
 				"rou",
 				"client/router.coffee"
@@ -2632,34 +2049,6 @@
 			[
 				"peg",
 				"lib/tasks/pegasus.rake"
-			],
-			[
-				"pega",
-				"config/pegasus.yml"
-			],
-			[
-				"hap",
-				"cookbooks/haproxy/templates/default/haproxy.cfg.erb"
-			],
-			[
-				"host",
-				"cookbooks/system/recipes/hosts.rb"
-			],
-			[
-				"responsys",
-				"cookbooks/config/attributes/responsys.rb"
-			],
-			[
-				"eydepl",
-				"config/eydeploy.rb"
-			],
-			[
-				"add_slg",
-				"db/migrate/20121217100858_baseline/20121126042107_add_slug_to_tags.rb"
-			],
-			[
-				"appl",
-				"config/application.rb"
 			]
 		],
 		"width": 0.0
