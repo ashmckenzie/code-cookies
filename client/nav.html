@@ -12,11 +12,14 @@
         <div class="nav-collapse collapse">
           <ul class="nav">
             {{#if currentUser}}
-              <li>
+              <li class="span2">
                 <a href="{{newCodeCookiePath}}">
                   <i class="icon-plus icon-white"></i>
                   New Code Cookie
                 </a>
+              </li>
+              <li class="span5">
+                {{> whosOnline}}
               </li>
             {{/if}}
           </ul>

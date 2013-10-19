@@ -60,6 +60,10 @@ body {
   margin-top: 5px;
 }
 
+.navbar ul, .navbar li {
+  margin-left: 0;
+}
+
 .new-comment textarea {
   width: 100%;
 }
@@ -101,6 +105,10 @@ body {
   margin: 0;
   padding: 0;
   line-height: 40px;
+}
+
+.whos-online li a {
+  padding: 0 4px !important;
 }
 
 /*----------------------------------------------------------------------------*/
