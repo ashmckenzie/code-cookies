@@ -1,0 +1,19 @@
+<template name="codeCookieComments">
+  <div class="span4">
+    <h2>Comments</h2>
+
+    <div class="row">
+      <ul class="comments">
+        {{#each commentList}}
+          <li>{{> comment}}</li>
+        {{/each}}
+      </ul>
+    </div>
+
+    {{#if currentUser}}
+      <div class="new-comment row">
+        {{> newComment}}
+      </div>
+    {{/if}}
+  </div>
+</template>
