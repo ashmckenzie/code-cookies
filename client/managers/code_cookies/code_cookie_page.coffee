@@ -8,4 +8,9 @@ Template.codeCookiePage.helpers
       codeCookie
 
   showNewCodeCookieSolution: ->
-    true
+    user = Meteor.user()
+
+    if user
+      CodeCookieSolutions.find(userId: user._id).count() == 0
+    else
+      false

@@ -1,14 +1,30 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    diff-lcs (1.2.4)
     dotenv (0.9.0)
     foreman (0.63.0)
       dotenv (>= 0.7)
       thor (>= 0.13.6)
+    foreman (0.63.0-java)
+      dotenv (>= 0.7)
+      thor (>= 0.13.6)
+    puma (2.6.0)
+      rack (>= 1.1, < 2.0)
+    puma (2.6.0-java)
+      rack (>= 1.1, < 2.0)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
-    sandrbox (0.1.0)
+    rspec (2.14.1)
+      rspec-core (~> 2.14.0)
+      rspec-expectations (~> 2.14.0)
+      rspec-mocks (~> 2.14.0)
+    rspec-core (2.14.6)
+    rspec-expectations (2.14.3)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.14.4)
+    ruby_cop (1.0.5)
     sinatra (1.4.3)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -18,10 +34,13 @@ GEM
     tilt (1.4.1)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
   foreman
-  sandrbox
+  puma
+  rspec
+  ruby_cop
   sinatra
   sinatra-cross_origin

@@ -11,5 +11,19 @@ Notifications.allow
       userId: codeCookie.userId
       codeCookieId: codeCookie._id
       commentId: comment._id
-      commenterEmail: comment.email
+      userEmail: comment.userEmail
+      action: 'commented'
       read: false
+
+@createSolutionNotification = (codeCookieSolution) ->
+  codeCookie = CodeCookies.findOne(codeCookieSolution.codeCookieId)
+
+  if codeCookieSolution.userId isnt codeCookieSolution.userId
+    Notifications.insert
+      userId: codeCookieSolution.userId
+      codeCookieId: codeCookie._id
+      codeCookieSolutionId: codeCookieSolution._id
+      userEmail: codeCookieSolution.userEmail
+      action: 'provided a solution'
+      read: false
+

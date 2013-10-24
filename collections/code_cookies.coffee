@@ -5,16 +5,16 @@ Meteor.methods
     user = Meteor.user()
 
     if !user
-      Errors.throw 'You need to login to create code cookies'
+      throw new Meteor.Error 401, 'You need to login to create code cookies'
 
     if !attrs.name
-      Errors.throw 'You need a name'
+      throw new Meteor.Error 422, 'You need a name'
 
     if !attrs.description
-      Errors.throw 'You need a description'
+      throw new Meteor.Error 422, 'You need a description'
 
     if !attrs.content
-      Errors.throw 'You need some content'
+      throw new Meteor.Error 422, 'You need some content'
 
     codeCookie = _.extend(_.pick(attrs, 'name', 'description', 'content'),
       userId: user._id,

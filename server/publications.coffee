@@ -4,6 +4,9 @@ Meteor.publish 'codeCookies', ->
 Meteor.publish 'comments', (codeCookieId) ->
   Comments.find codeCookieId: codeCookieId
 
+Meteor.publish 'codeCookieSolutions', (codeCookieId) ->
+  CodeCookieSolutions.find codeCookieId: codeCookieId
+
 Meteor.publish 'notifications', ->
   Notifications.find()
 

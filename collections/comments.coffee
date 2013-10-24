@@ -15,7 +15,7 @@ Meteor.methods
 
     comment = _.extend(_.pick(attrs, 'codeCookieId', 'content'), {
       userId: user._id,
-      email: user.emails[0].address,
+      userEmail: user.emails[0].address,
       createdAt: new Date()
     })
 

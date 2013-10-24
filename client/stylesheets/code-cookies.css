@@ -1,5 +1,6 @@
 body {
   background-color: #eee;
+  padding-bottom: 20px;
 }
 
 .navbar-fixed-top {
@@ -40,7 +41,11 @@ body {
   border: 1px dotted red;
 }
 
-.code-cookie .uneditable-input, .code-cookie .uneditable-textarea {
+.code-cookie .uneditable-input,
+.code-cookie .uneditable-textarea,
+.code-cookie-solution .uneditable-input,
+.code-cookie-solution .uneditable-textarea {
+  color: #666;
   cursor: default;
   width: 96%;
 }
