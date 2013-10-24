@@ -50,10 +50,11 @@ body {
   width: 96%;
 }
 
-.code-cookie .description {
-  height: 140px;
+.code-cookie .description,
+.code-cookie-solution .description {
+  height: 100px;
   overflow-y: auto;
-  white-space: normal;
+  white-space: pre-wrap;
 }
 
 .notification .no-notifications {
