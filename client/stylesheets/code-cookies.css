@@ -1,6 +1,6 @@
 body {
   background-color: #eee;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .navbar-fixed-top {
@@ -41,13 +41,19 @@ body {
   border: 1px dotted red;
 }
 
-.code-cookie .uneditable-input,
-.code-cookie .uneditable-textarea,
-.code-cookie-solution .uneditable-input,
-.code-cookie-solution .uneditable-textarea {
+span.uneditable-input,
+span.uneditable-textarea {
   color: #666;
   cursor: default;
-  width: 96%;
+  padding: 4px 0;
+  width: 100%;
+}
+
+span.uneditable-input span,
+span.uneditable-input div,
+span.uneditable-textarea span,
+span.uneditable-textarea div {
+  padding: 0 0 0 6px;
 }
 
 .code-cookie .description,
@@ -118,6 +124,10 @@ body {
 
 pre.prettyprint {
   border-radius: 0;
+}
+
+span.created-at {
+  font-size: 0.9em;
 }
 
 /*----------------------------------------------------------------------------*/
