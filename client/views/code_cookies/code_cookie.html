@@ -1,51 +1,46 @@
 <template name="codeCookie">
+  <div class="code-cookie">
 
-  <div class="row">
-    <div class="span5 offset1">
-      <h2>Code Cookie</h2>
-    </div>
-  </div>
-
-  <div class="code-cookie row">
-
-    <div class="span5 offset1">
-      <div class="control-group">
-        <div class="controls">
-          <div id="editor">{{content}}</div>
+    <div class="row">
+      <div class="span6">
+        <div class="control-group">
+          <div class="controls">
+            <pre class="content prettyprint lang-ruby">{{content}}</pre>
+          </div>
         </div>
-       </div>
+      </div>
     </div>
 
-    <div class="span4">
-
-      <div class="control-group">
-        <label class="control-label">Name</label>
-        <div class="controls">
-          <span class="uneditable-input name">{{name}}</span>
+    <div class="row">
+      <div class="span6">
+        <div class="control-group">
+          <label class="control-label">Name</label>
+          <div class="controls">
+            <span class="uneditable-input name">{{name}}</span>
+          </div>
         </div>
-      </div>
 
-      <div class="control-group">
-        <label class="control-label">Description</label>
-        <div class="controls">
-          <span class="uneditable-input description">{{description}}</span>
+        <div class="control-group">
+          <label class="control-label">Description</label>
+          <div class="controls">
+            <span class="uneditable-input description">{{description}}</span>
+          </div>
         </div>
-      </div>
 
-      <div class="control-group">
-        <label class="control-label">Email</label>
-        <div class="controls">
-          <span class="uneditable-input email">{{userEmail}}</span>
+        <div class="control-group">
+          <label class="control-label">Email</label>
+          <div class="controls">
+            <span class="uneditable-input email">{{userEmail}}</span>
+          </div>
         </div>
-      </div>
 
-      <div class="control-group">
-        <label class="control-label">Created</label>
-        <div class="controls">
-          <span class="input-large uneditable-input created-at">{{dateNice createdAt}}</span>
+        <div class="control-group">
+          <label class="control-label">Created</label>
+          <div class="controls">
+            <span class="input-large uneditable-input created-at">{{dateNice createdAt}}</span>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
 </template>

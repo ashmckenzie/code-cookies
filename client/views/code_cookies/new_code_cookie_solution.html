@@ -1,0 +1,67 @@
+<template name="newCodeCookieSolution">
+  <form>
+    <div class="row">
+      <div class="span6">
+        <h2>New solution</h2>
+        <h3>Implementation</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span6">
+        <div class="control-group">
+          <div class="controls">
+            <div id="editor-implementation" class="editor"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span6">
+        <h3>Test (optional)</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span6">
+        <div class="control-group">
+          <div class="controls">
+            <div id="editor-test" class="editor"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span6">
+        <div class="control-group">
+          <div class="controls">
+            <button class="btn btn-primary pull-right test-implementation">Test</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span6">
+        <div class="control-group">
+          <label class="control-label" for="description">Description</label>
+          <div class="controls">
+            <textarea id="description" name="description" class="span6" rows="4" placeholder="Optional description (Markdown supported)"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span6">
+        <div class="control-group">
+          <div class="controls">
+            <button type="submit" class="btn btn-success pull-right">Add Solution</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</template>

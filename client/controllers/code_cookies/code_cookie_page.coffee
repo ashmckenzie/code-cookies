@@ -6,3 +6,6 @@ Template.codeCookiePage.helpers
       Meteor.Router.to('home')
     else
       codeCookie
+
+  showNewCodeCookieSolution: ->
+    true

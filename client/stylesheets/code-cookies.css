@@ -30,7 +30,7 @@ body {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.30);
 }
 
-#editor {
+.editor {
   max-width: 640px;
   height: 400px;
   text-align: left;
@@ -108,6 +108,10 @@ body {
 
 .whos-online li a {
   padding: 0 4px !important;
+}
+
+pre.prettyprint {
+  border-radius: 0;
 }
 
 /*----------------------------------------------------------------------------*/

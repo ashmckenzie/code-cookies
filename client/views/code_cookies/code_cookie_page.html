@@ -1,15 +1,22 @@
 <template name="codeCookiePage">
   {{#with currentCodeCookie}}
 
-    {{> codeCookie}}
+  <div class="row">
 
-    <div class="row">
-      <div class="span5 offset1">
-        <h2>Responses</h2>
-      </div>
-
-      {{!> codeCookieComments}}
+    <div class="span6">
+      <h2>Code Cookie</h2>
+      {{> codeCookie}}
     </div>
+
+    <div class="span6">
+      {{#if showNewCodeCookieSolution}}
+        {{> newCodeCookieSolution}}
+      {{/if}}
+      <h2>Solutions</h2>
+      {{> codeCookieSolutions}}
+    </div>
+
+  </div>
 
   {{/with}}
 </template>
