@@ -18,7 +18,7 @@ Notifications.allow
 @createSolutionNotification = (codeCookieSolution) ->
   codeCookie = CodeCookies.findOne(codeCookieSolution.codeCookieId)
 
-  if codeCookieSolution.userId isnt codeCookieSolution.userId
+  if codeCookieSolution.userId isnt codeCookie.userId
     Notifications.insert
       userId: codeCookieSolution.userId
       codeCookieId: codeCookie._id
