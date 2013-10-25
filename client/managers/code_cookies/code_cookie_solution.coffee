@@ -11,7 +11,7 @@ Template.codeCookieSolution.helpers
   upVotedClass: ->
     userId = Meteor.userId()
 
-    if userId
+    if userId && userId != @.userId
       if !@.upVoters || @.votes == 0 || !_.include(@.upVoters, userId)
         'votable'
       else
@@ -22,7 +22,7 @@ Template.codeCookieSolution.helpers
   downVotedClass: ->
     userId = Meteor.userId()
 
-    if userId
+    if userId && userId != @.userId
       if !@.downVoters || @.votes == 0 || !_.include(@.downVoters, userId)
         'votable'
       else
