@@ -11,8 +11,6 @@ Template.codeCookieSolution.helpers
   upVotedClass: ->
     userId = Meteor.userId()
 
-    return 'votable'
-
     if userId
       if !@.upVoters || !_.include(@.upVoters, userId)
         'votable'
@@ -23,8 +21,6 @@ Template.codeCookieSolution.helpers
 
   downVotedClass: ->
     userId = Meteor.userId()
-
-    return 'votable'
 
     if userId
       if !@.downVoters || !_.include(@.downVoters, userId)
