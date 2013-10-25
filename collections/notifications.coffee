@@ -18,12 +18,11 @@ Notifications.allow
 @createSolutionNotification = (codeCookieSolution) ->
   codeCookie = CodeCookies.findOne(codeCookieSolution.codeCookieId)
 
-  if codeCookieSolution.userId isnt codeCookie.userId
-    Notifications.insert
-      userId: codeCookieSolution.userId
-      codeCookieId: codeCookie._id
-      codeCookieSolutionId: codeCookieSolution._id
-      userEmail: codeCookieSolution.userEmail
-      action: 'provided a solution'
-      read: false
-
+  # if codeCookieSolution.userId isnt codeCookie.userId
+  Notifications.insert
+    userId: codeCookieSolution.userId
+    codeCookieId: codeCookie._id
+    codeCookieSolutionId: codeCookieSolution._id
+    userEmail: codeCookieSolution.userEmail
+    action: 'provided a solution'
+    read: false
