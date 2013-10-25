@@ -17,6 +17,8 @@ Meteor.methods
       userId: user._id,
       userEmail: user.emails[0].address,
       votes: 0,
+      upVoters: [],
+      downVoters: [],
       createdAt: new Date().getTime()
     )
 

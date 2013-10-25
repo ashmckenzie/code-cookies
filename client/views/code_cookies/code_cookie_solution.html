@@ -8,9 +8,23 @@
           <pre class="content prettyprint lang-ruby">{{implementation}}</pre>
         </div>
 
-        <div class="control-group">
-          <label class="control-label" for="description">Description</label>
-          <span class="uneditable-input description"><div>{{description}}</div></span>
+        {{#if description}}
+          <div class="control-group">
+            <label class="control-label" for="description">Description</label>
+            <span class="uneditable-input description"><div>{{description}}</div></span>
+          </div>
+        {{/if}}
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="span2 offset4">
+        <div class="control-group pull-right vote-buttons">
+          <span class="total-votes">{{votes}}</span>
+          <button class="btn btn-primary btn-danger down-vote {{downVotedClass}}"><i class="icon-thumbs-down"></i></button>
+          <button class="btn btn-primary btn-success up-vote {{upVotedClass}}"><i class="icon-thumbs-up"></i></button>
         </div>
       </div>
 
@@ -18,20 +32,11 @@
 
     <div class="row">
 
-      <div class="span3">
+      <div class="span4">
         <div class="control-group">
           <label class="control-label">Email</label>
           <span class="uneditable-input email">
             <span>{{userEmail}}</span>
-          </span>
-        </div>
-      </div>
-
-      <div class="span1">
-        <div class="control-group">
-          <label class="control-label">Votes</label>
-          <span class="uneditable-input votes">
-            <span>{{votes}}</span>
           </span>
         </div>
       </div>

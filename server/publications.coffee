@@ -11,4 +11,4 @@ Meteor.publish 'notifications', ->
   Notifications.find()
 
 Meteor.publish 'userPresence', ->
-  Meteor.presences.find({}, { fields: { state: true, userId: true }})
+  Meteor.presences.find {}, { fields: { state: true, userId: true }}

@@ -3,4 +3,4 @@ Template.codeCookieSolutions.rendered = ->
 
 Template.codeCookieSolutions.helpers
   solutions: ->
-    CodeCookieSolutions.find(codeCookieId: this._id)
+    CodeCookieSolutions.find(codeCookieId: this._id, { sort: { votes: -1, createdAt: -1 }})

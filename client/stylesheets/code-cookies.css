@@ -11,6 +11,11 @@ body {
 .home h1 {
   font-size: 6em;
   line-height: 0.9em;
+  margin-bottom: 0;
+}
+
+.home h2 {
+  margin-top: 0;
 }
 
 .home img {
@@ -58,7 +63,7 @@ span.uneditable-textarea div {
 
 .code-cookie .description,
 .code-cookie-solution .description {
-  height: 100px;
+  min-height: 100px;
   overflow-y: auto;
   white-space: pre-wrap;
 }
@@ -128,6 +133,17 @@ pre.prettyprint {
 
 span.created-at {
   font-size: 0.9em;
+}
+
+.vote-buttons {
+  margin-bottom: 15px;
+}
+
+.total-votes {
+  font-family: Georgia;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-right: 8px;
 }
 
 /*----------------------------------------------------------------------------*/

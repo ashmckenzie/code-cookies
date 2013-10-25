@@ -1,5 +1,4 @@
 Template.newCodeCookieSolution.rendered = ->
-
   editorImplementation = ace.edit('editor-implementation')
   editorImplementation.setTheme('ace/theme/tomorrow_night')
   editorImplementation.getSession().setMode('ace/mode/ruby')
