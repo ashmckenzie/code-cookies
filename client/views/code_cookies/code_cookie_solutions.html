@@ -1,5 +1,8 @@
 <template name="codeCookieSolutions">
-  {{#each solutions}}
-    {{> codeCookieSolution}}
-  {{/each}}
+  {{#if solutions}}
+    <h2>Solutions</h2>
+    {{#each solutions}}
+      {{> codeCookieSolution}}
+    {{/each}}
+  {{/if}}
 </template>

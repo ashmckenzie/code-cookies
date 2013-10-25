@@ -12,7 +12,7 @@ Template.codeCookieSolution.helpers
     userId = Meteor.userId()
 
     if userId
-      if !@.upVoters || !_.include(@.upVoters, userId)
+      if !@.upVoters || @.votes == 0 || !_.include(@.upVoters, userId)
         'votable'
       else
         'disabled'
@@ -23,7 +23,7 @@ Template.codeCookieSolution.helpers
     userId = Meteor.userId()
 
     if userId
-      if !@.downVoters || !_.include(@.downVoters, userId)
+      if !@.downVoters || @.votes == 0 || !_.include(@.downVoters, userId)
         'votable'
       else
         'disabled'

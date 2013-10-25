@@ -10,13 +10,17 @@ Meteor.methods
     if !codeCookieSolution
       throw new Meteor.Error 422, 'Code Cookie solution not found'
 
-    CodeCookieSolutions.update(
-      codeCookieSolution._id, {
-        $addToSet: { upVoters: user._id },
-        $pull: { downVoters: user._id },
-        $inc: { votes: 1 }
-      }
-    )
+    options = {
+      $inc: { votes: 1 }
+    }
+
+    if _.include(codeCookieSolution.downVoters, user._id)
+      options["$pull"] =  { downVoters: user._id }
+    else
+      options["$addToSet"] = { upVoters: user._id }
+
+
+    CodeCookieSolutions.update(codeCookieSolution._id, options)
 
   downVote: (codeCookieSolutionId) ->
     user = Meteor.user()
@@ -29,11 +33,13 @@ Meteor.methods
     if !codeCookieSolution
       throw new Meteor.Error 422, 'Code Cookie solution not found'
 
-    CodeCookieSolutions.update(
-      codeCookieSolution._id, {
-        $addToSet: { downVoters: user._id },
-        $pull: { upVoters: user._id },
-        $inc: { votes: -1 }
-      }
-    )
+    options = {
+      $inc: { votes: -1 }
+    }
 
+    if _.include(codeCookieSolution.upVoters, user._id)
+      options["$pull"] =  { upVoters: user._id }
+    else
+      options["$addToSet"] = { downVoters: user._id }
+
+    CodeCookieSolutions.update(codeCookieSolution._id, options)

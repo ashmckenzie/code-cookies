@@ -8,17 +8,22 @@
               <div class="span5">
                 <span class="badge">{{!commentCount}}</span>
                 <span class="badge badge-inverse">{{solutionCount}}</span>
-                <a href="{{codeCookiePagePath this}}">
+                <a class="name" href="{{codeCookiePagePath this}}">
                   <span class="name">{{name}}</span>
                 </a>
-                <span class="muted">~</span>
+              </div>
+
+              <div class="span2 pull-right text-right">
                 <span class="email">{{userEmail}}</span>
+                <span class="created-at muted">{{dateNice createdAt}}</span>
               </div>
 
-              <div class="span2 pull-right text-right muted">
-                <span class="created-at">{{dateNice createdAt}}</span>
-              </div>
+            </div>
 
+            <div class="row">
+              <div class="span6">
+                <span class="description">{{description}}</span>
+              </div>
             </div>
           </li>
         {{/each}}
